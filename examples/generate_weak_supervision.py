@@ -1,3 +1,7 @@
+import sys
+ 
+# setting path
+sys.path.append('../query_variation_generators')
 from disentangled_information_needs.transformations.synonym import SynonymActions
 from disentangled_information_needs.transformations.paraphrase import ParaphraseActions
 from disentangled_information_needs.transformations.naturality import NaturalityActions
