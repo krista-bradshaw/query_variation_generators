@@ -1,3 +1,7 @@
+import sys
+ 
+# setting path
+sys.path.append('../query_variation_generators')
 import xml.etree.ElementTree as ET
 from IPython import embed
 import pandas as pd

@@ -15,7 +15,8 @@ import functools
 import onir_pt
 import wget
 import zipfile
-
+import pyterrier_doc2query
+import shutil
 
 # https://macavaney.us/pt_models/msmarco.bert.seed42.tar.gz
 # https://macavaney.us/pt_models/msmarco.bert.seed43.tar.gz
@@ -87,11 +88,11 @@ def main():
     query_variations['qid'] = query_variations['q_id'].astype(str)
 
     dataset = pt.datasets.get_dataset(args.task)
-    index_path = '{}/{}-index'.format(args.output_dir, args.task.replace('/', '-'))
-    if not os.path.isdir(index_path):
-        indexer = pt.index.IterDictIndexer(index_path)
-        indexref = indexer.index(dataset.get_corpus_iter(), fields=('doc_id', 'text'))
-    index = pt.IndexFactory.of(index_path+"/data.properties")
+    index_path = './iter_index'
+    indexer = pt.index.IterDictIndexer(index_path)
+    shutil.rmtree(index_path)
+    indexref = indexer.index(dataset.get_corpus_iter())
+    index = indexref
 
     if args.retrieval_model_name == "BM25":
         retrieval_model = pt.BatchRetrieve(index, wmodel="BM25") % args.cutoff_threshold 
@@ -148,17 +149,17 @@ def main():
         retrieval_model = pt.BatchRetrieve(index, wmodel="BM25") % args.cutoff_threshold >> pt.text.get_text(dataset, 'text') >> monoT5
     elif args.retrieval_model_name == "BM25+docT5query":        
         index_path_docT5query = index_path+"-docT5query"
-        if not os.path.isdir(index_path_docT5query):
-            if not os.path.exists("{}/t5-base.zip".format(args.output_dir)):
-                wget.download("https://git.uwaterloo.ca/jimmylin/doc2query-data/raw/master/T5-passage/t5-base.zip", out="{}".format(args.output_dir))
-                with zipfile.ZipFile('{}/t5-base.zip'.format(args.output_dir), 'r') as zip_ref:
-                    zip_ref.extractall(args.output_dir)
-            doc2query = pyterrier_doc2query.Doc2Query("{}/model.ckpt-1004000".format(args.output_dir), out_attr="text")
-            indexer = doc2query >> pt.index.IterDictIndexer(index_path_docT5query)
-            logging.info("Indexing with doc2query documents.")
-            indexref = indexer.index(dataset.get_corpus_iter())
+        if not os.path.exists("{}/t5-base.zip".format(args.output_dir)):
+            wget.download("https://git.uwaterloo.ca/jimmylin/doc2query-data/raw/master/T5-passage/t5-base.zip", out="{}".format(args.output_dir))
+            with zipfile.ZipFile('{}/t5-base.zip'.format(args.output_dir), 'r') as zip_ref:
+                zip_ref.extractall(args.output_dir)
+        doc2query = pyterrier_doc2query.Doc2Query("{}/model.ckpt-1004000".format(args.output_dir), out_attr="text")
+        indexer = doc2query >> pt.index.IterDictIndexer(index_path_docT5query)
+        logging.info("Indexing with doc2query documents.")
+        shutil.rmtree(index_path_docT5query)
+        indexref = indexer.index(dataset.get_corpus_iter())
         logging.info("Loading doc2query index")
-        index = pt.IndexFactory.of(index_path_docT5query+"/data.properties")
+        index = indexref
         retrieval_model = pt.BatchRetrieve(index, wmodel="BM25") % args.cutoff_threshold
     elif 'https' in args.retrieval_model_name:
         config = {}
