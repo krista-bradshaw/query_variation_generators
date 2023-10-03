@@ -148,17 +148,17 @@ def main():
         retrieval_model = pt.BatchRetrieve(index, wmodel="BM25") % args.cutoff_threshold >> pt.text.get_text(dataset, 'text') >> monoT5
     elif args.retrieval_model_name == "BM25+docT5query":        
         index_path_docT5query = index_path+"-docT5query"
-        if not os.path.exists("{}/t5-base.zip".format(args.output_dir)):
-            wget.download("https://git.uwaterloo.ca/jimmylin/doc2query-data/raw/master/T5-passage/t5-base.zip", out="{}".format(args.output_dir))
-            with zipfile.ZipFile('{}/t5-base.zip'.format(args.output_dir), 'r') as zip_ref:
-                zip_ref.extractall(args.output_dir)
-        doc2query = pyterrier_doc2query.Doc2Query("{}/model.ckpt-1004000".format(args.output_dir), out_attr="text")
-        indexer = doc2query >> pt.index.IterDictIndexer(index_path_docT5query)
-        logging.info("Indexing with doc2query documents.")
-        shutil.rmtree(index_path_docT5query)
-        indexref = indexer.index(dataset.get_corpus_iter())
+        if not os.path.isdir(index_path_docT5query):
+            if not os.path.exists("{}/t5-base.zip".format(args.output_dir)):
+                wget.download("https://git.uwaterloo.ca/jimmylin/doc2query-data/raw/master/T5-passage/t5-base.zip", out="{}".format(args.output_dir))
+                with zipfile.ZipFile('{}/t5-base.zip'.format(args.output_dir), 'r') as zip_ref:
+                    zip_ref.extractall(args.output_dir)
+            doc2query = pyterrier_doc2query.Doc2Query("{}/model.ckpt-1004000".format(args.output_dir), out_attr="text")
+            indexer = doc2query >> pt.index.IterDictIndexer(index_path_docT5query)
+            logging.info("Indexing with doc2query documents.")
+            indexref = indexer.index(dataset.get_corpus_iter())
         logging.info("Loading doc2query index")
-        index = indexref
+        index = pt.IndexFactory.of(index_path_docT5query+"/data.properties")
         retrieval_model = pt.BatchRetrieve(index, wmodel="BM25") % args.cutoff_threshold
     elif 'https' in args.retrieval_model_name:
         config = {}
