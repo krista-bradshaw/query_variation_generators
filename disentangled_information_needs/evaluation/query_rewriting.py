@@ -87,7 +87,7 @@ def main():
     query_variations['qid'] = query_variations['q_id'].astype(str)
 
     dataset = pt.datasets.get_dataset(args.task)
-    index_path = './iter_index'
+    index_path = './iter_index_'+args.task.split('/')[0]
     if not os.path.isdir(index_path):
         indexer = pt.index.IterDictIndexer(index_path)
         indexref = indexer.index(dataset.get_corpus_iter())
