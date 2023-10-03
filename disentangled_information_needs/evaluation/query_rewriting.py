@@ -16,7 +16,6 @@ import onir_pt
 import wget
 import zipfile
 import pyterrier_doc2query
-import shutil
 
 # https://macavaney.us/pt_models/msmarco.bert.seed42.tar.gz
 # https://macavaney.us/pt_models/msmarco.bert.seed43.tar.gz
@@ -89,10 +88,10 @@ def main():
 
     dataset = pt.datasets.get_dataset(args.task)
     index_path = './iter_index'
-    indexer = pt.index.IterDictIndexer(index_path)
-    shutil.rmtree(index_path)
-    indexref = indexer.index(dataset.get_corpus_iter())
-    index = indexref
+    if not os.path.isdir(index_path):
+        indexer = pt.index.IterDictIndexer(index_path)
+        indexref = indexer.index(dataset.get_corpus_iter())
+    index = pt.IndexFactory.of(index_path+"/data.properties")
 
     if args.retrieval_model_name == "BM25":
         retrieval_model = pt.BatchRetrieve(index, wmodel="BM25") % args.cutoff_threshold 
