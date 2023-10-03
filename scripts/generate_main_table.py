@@ -45,17 +45,15 @@ def main():
     parser = argparse.ArgumentParser()
 
     # Input and output configs
-    # parser.add_argument("--task", default=None, type=str, required=True,
-    #                     help="The task to generate weak supervision for (e.g. msmarco-passage/train, car/v1.5/train/fold0).")
-    # parser.add_argument("--output_dir", default=None, type=str, required=True,
-    #                     help="the folder to output weak supervision")
-    # parser.add_argument("--sample", default=None, type=int, required=False,
-    #                     help="Number of queries to sample (if None all queries are used)")
-    # args = parser.parse_args()
-    path = "/ssd/gustavo/disentangled_information_needs/data/"
-    task = "msmarco-passage-trec-dl"
-    # task='antique'
+    parser.add_argument("--task", default=None, type=str, required=True,
+                        help="The task to generate generate table")
+    parser.add_argument("--path", default=None, type=str, required=True,
+                        help="The folder where data exists")
+    args = parser.parse_args()
+    path = args.path
+    task = args.task
     metric = 'ndcg_cut_10'
+    p_val = ' p-value'
 
     _, _, filenames = next(walk(path))
     dfs = []
@@ -67,10 +65,10 @@ def main():
            df[metric] = df.apply(lambda r, metric=metric, v=baseline_v: 
                 round(r[metric], 4), axis=1)
                 # round(r[metric], 4) if r['variation_method']=='OriginalQuery' else str(round(((r[metric]-v)/v) * 100, 2)) + "%", axis=1)
-           df[metric + " p-value"] = df.apply(lambda r, metric=metric: r[metric + " p-value"] < 0.05/10,axis=1)
+           df[metric + p_val] = df.apply(lambda r, metric=metric: r[metric + p_val] < 0.05/10,axis=1)
            model_name = f.split("model_")[-1].split(".csv")[0]
            df = df.rename(columns = {metric : "{}_".format(metric) + model_name,
-                                     metric + " p-value": "p_"+ model_name})
+                                     metric + p_val: "p_"+ model_name})
            df = df.set_index('variation_method')
            dfs.append(df[["{}_".format(metric) + model_name, "p_"+ model_name]])
     df_all = functools.reduce(lambda df1, df2: df1.join(df2), dfs)
