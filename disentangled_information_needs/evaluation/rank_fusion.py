@@ -138,7 +138,17 @@ def main():
     # query_variations["variation"] = query_variations.apply(lambda r: r['query'] if not r['valid'] else r['variation'], axis=1)
     query_variations['qid'] = query_variations['q_id'].astype(str)    
 
-    dataset = pt.datasets.get_dataset(args.task)
+    if args.task == 'dl-typo':
+        dataset = pt.datasets.get_dataset('irds:msmarco-passage')
+        topics = pd.read_csv('/content/drive/MyDrive/REIT4841/CharacterBERT-DR/data/dl-typo/query.typo.tsv', sep='\t', header=None, names=['qid', 'query'])
+        qrels = pd.read_csv('/content/drive/MyDrive/REIT4841/CharacterBERT-DR/data/dl-typo/qrels.txt', sep=' ', header=None, names=['qid', 'iteration', 'docno', 'label'])
+        qrels['docno'] = qrels['docno'].astype(str)
+        qrels['qid'] = qrels['qid'].astype(str)
+    else:
+        dataset = pt.datasets.get_dataset(args.task)
+        topics = dataset.get_topics()
+        qrels = dataset.get_qrels()
+
     index_path = './iter_index_'+args.task.split('/')[0]
     if not os.path.isdir(index_path):
         indexer = pt.index.IterDictIndexer(index_path)
@@ -156,17 +166,17 @@ def main():
         if not os.path.isfile(model_path):
             logging.info("Fitting BERT.")
             vbert = onir_pt.reranker('vanilla_transformer', 'bert', vocab_config={'train': True}, config={'max_train_it':args.max_iter, 'learning_rate': 1e-5, 'batch_size': 2,  'pre_validate': False})
-            if 'msmarco' in args.task:
+            if 'msmarco' in args.task or 'typo' in args.task:
                 bm25 = pt.BatchRetrieve(index, wmodel="BM25", verbose=True) % args.cutoff_threshold >> pt.text.get_text(dataset, 'text')
-                validation_run = bm25(dataset.get_topics())
-                vbert.fit(va_run=validation_run, va_qrels=dataset.get_qrels(),tr_pairs=pair_iter(train_ds))
+                validation_run = bm25(topics)
+                vbert.fit(va_run=validation_run, va_qrels=qrels,tr_pairs=pair_iter(train_ds))
             else:
                 retrieval_model = pt.BatchRetrieve(index, wmodel="BM25") % args.cutoff_threshold >> pt.text.get_text(train_ds, 'text') >> vbert
                 retrieval_model.fit(
                     train_ds.get_topics(),
                     train_ds.get_qrels(),
-                    dataset.get_topics(),
-                    dataset.get_qrels())
+                    topics,
+                    qrels)
             vbert.to_checkpoint(model_path)
         logging.info("Loading trained BERT.")
         vbert = onir_pt.reranker.from_checkpoint(model_path)
@@ -178,17 +188,17 @@ def main():
         if not os.path.isfile(model_path):
             logging.info("Fitting KNRM.")
             knrm = onir_pt.reranker('knrm', 'wordvec_hash', config={'max_train_it':args.max_iter, 'pre_validate': False})
-            if 'msmarco' in args.task:
+            if 'msmarco' in args.task or 'typo' in args.task:
                 bm25 = pt.BatchRetrieve(index, wmodel="BM25", verbose=True) % args.cutoff_threshold >> pt.text.get_text(dataset, 'text')
-                validation_run = bm25(dataset.get_topics())
-                knrm.fit(va_run=validation_run, va_qrels=dataset.get_qrels(),tr_pairs=pair_iter(train_ds))
+                validation_run = bm25(topics)
+                knrm.fit(va_run=validation_run, va_qrels=qrels,tr_pairs=pair_iter(train_ds))
             else:
                 retrieval_model = pt.BatchRetrieve(index, wmodel="BM25") % args.cutoff_threshold >> pt.text.get_text(train_ds, 'text') >> knrm
                 retrieval_model.fit(
                     train_ds.get_topics(),
                     train_ds.get_qrels(),
-                    dataset.get_topics(),
-                    dataset.get_qrels())
+                    topics,
+                    qrels)
             knrm.to_checkpoint(model_path)
         logging.info("Loading trained KNRM.")
         knrm = onir_pt.reranker.from_checkpoint(model_path)
@@ -297,7 +307,7 @@ def main():
         final_df = pt.Experiment(
                 [res_retrieval_baseline_model, fused_df_all] + fused_by_cat,
                 query_variations[['query','qid']].drop_duplicates(),
-                dataset.get_qrels(),
+                qrels,
                 metrics,
                 baseline=0,
                 names=["{}".format(args.retrieval_model_name), 
