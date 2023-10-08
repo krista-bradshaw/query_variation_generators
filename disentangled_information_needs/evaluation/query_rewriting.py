@@ -87,7 +87,7 @@ def main():
     query_variations['qid'] = query_variations['q_id'].astype(str)
 
     if args.task == 'dl-typo':
-        dataset = pt.datasets.get_dataset('msmarco-passage')
+        dataset = pt.datasets.get_dataset('irds:msmarco-passage')
         topics = pd.read_csv('/content/drive/MyDrive/REIT4841/CharacterBERT-DR/data/dl-typo/query.typo.tsv', sep='\t', header=None, names=['qid', 'query'])
         qrels = pd.read_csv('/content/drive/MyDrive/REIT4841/CharacterBERT-DR/data/dl-typo/qrels.txt', sep=' ', header=None, names=['qid', 'iteration', 'docno', 'label'])
         qrels['docno'] = qrels['docno'].astype(str)
