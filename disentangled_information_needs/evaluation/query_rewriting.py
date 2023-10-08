@@ -90,6 +90,8 @@ def main():
         dataset = pt.datasets.get_dataset('msmarco-passage')
         topics = pd.read_csv('/content/drive/MyDrive/REIT4841/CharacterBERT-DR/data/dl-typo/query.typo.tsv', sep='\t', header=None, names=['qid', 'query'])
         qrels = pd.read_csv('/content/drive/MyDrive/REIT4841/CharacterBERT-DR/data/dl-typo/qrels.txt', sep=' ', header=None, names=['qid', 'iteration', 'docno', 'label'])
+        qrels['docno'] = qrels['docno'].astype(str)
+        qrels['qid'] = qrels['qid'].astype(str)
     else:
         dataset = pt.datasets.get_dataset(args.task)
         topics = dataset.get_topics()
