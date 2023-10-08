@@ -115,7 +115,7 @@ def main():
             logging.info("Fitting BERT.")
             vbert = onir_pt.reranker('vanilla_transformer', 'bert', vocab_config={'train': True}, 
                                     config={'max_train_it':args.max_iter, 'learning_rate': 1e-5, 'batch_size': 2,  'pre_validate': False, 'patience':50})
-            if 'msmarco' in args.task:
+            if 'msmarco' in args.task or 'typo' in args.task:
                 bm25 = pt.BatchRetrieve(index, wmodel="BM25", verbose=True) % args.cutoff_threshold >> pt.text.get_text(dataset, 'text')
                 validation_run = bm25(topics)
                 vbert.fit(va_run=validation_run, va_qrels=qrels,tr_pairs=pair_iter(train_ds))
@@ -137,7 +137,7 @@ def main():
         if not os.path.isfile(model_path):
             logging.info("Fitting KNRM.")
             knrm = onir_pt.reranker('knrm', 'wordvec_hash', config={'max_train_it':args.max_iter, 'pre_validate': False})
-            if 'msmarco' in args.task:
+            if 'msmarco' in args.task or 'typo' in args.task:
                 bm25 = pt.BatchRetrieve(index, wmodel="BM25", verbose=True) % args.cutoff_threshold >> pt.text.get_text(dataset, 'text')
                 validation_run = bm25(topics)
                 knrm.fit(va_run=validation_run, va_qrels=qrels,tr_pairs=pair_iter(train_ds))
