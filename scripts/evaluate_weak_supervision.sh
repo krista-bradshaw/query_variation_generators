@@ -85,3 +85,7 @@ python ${REPO_DIR}/disentangled_information_needs/evaluation/query_rewriting.py 
         --output_dir $OUT_DIR/ \
         --variations_file $OUT_DIR/$VARIATIONS_FILE_ANTIQUE \
         --retrieval_model_name "https://macavaney.us/pt_models/msmarco.convknrm.seed42.tar.gz"
+
+
+
+##UPDATE
