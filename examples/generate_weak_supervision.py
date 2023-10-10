@@ -1,7 +1,3 @@
-import sys
- 
-# setting path
-sys.path.append('../query_variation_generators')
 from disentangled_information_needs.transformations.synonym import SynonymActions
 from disentangled_information_needs.transformations.paraphrase import ParaphraseActions
 from disentangled_information_needs.transformations.naturality import NaturalityActions
@@ -34,18 +30,21 @@ def main():
                         help="the folder to output weak supervision")
     parser.add_argument("--sample", default=None, type=int, required=False,
                         help="Number of queries to sample (if None all queries are used)")
+    parser.add_argument("--typo", default=None, type=str, required=False,
+                    help="Location of the DL-Typo dataset")
     args = parser.parse_args()
 
-    # queries = pd.read_csv("/home/guzpenha/personal/disentangled_information_needs/data/uqv100-backstories.tsv", sep="\t")
-    # queries = queries["TRECTopicQuery"]
-    # queries = pd.read_csv("/home/guzpenha/personal/disentangled_information_needs/data/uqv100-systemInputRun-uniqueOnly-spelledNormQueries.tsv", sep="\t")
-    # queries = queries[queries.columns[-1]]
     logging.info("Generating weak supervision for task {} and saving results in {}."\
         .format(args.task, args.output_dir))    
 
-    dataset = ir_datasets.load(args.task)
-    queries = [t[1].lower() for t in dataset.queries_iter()]
-    q_ids = [t[0] for t in dataset.queries_iter()]
+    if args.task == 'dl-typo':
+        dataset = pd.read_csv(args.typo, sep='\t', header=None)
+        queries = dataset[1].tolist()
+        q_ids = dataset[0].tolist()
+    else:
+        dataset = ir_datasets.load(args.task)
+        queries = [t[1].lower() for t in dataset.queries_iter()]
+        q_ids = [t[0] for t in dataset.queries_iter()]
 
     pa = ParaphraseActions(queries, q_ids, args.output_dir)
     transformed_queries_paraphrase_models = pa.seq2seq_paraphrase(sample=args.sample)
