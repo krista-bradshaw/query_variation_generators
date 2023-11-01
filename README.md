@@ -14,4 +14,5 @@ You can run the experiments in the provided Google Colab notebook by following t
 
 ### Project Overview
 This thesis project unravels the intricacies of query variations and their impact on information retrieval systems. It explores potential optimizations, investigates the effectiveness of neural models, and delves into real-world applications of handling query variations.
+
 <img width="857" alt="Screenshot 2023-10-26 at 6 46 40 pm" src="https://github.com/krista-b/reit4841/assets/99629116/36c344b4-3ff4-4314-b16d-a1a1bbb3af13">
