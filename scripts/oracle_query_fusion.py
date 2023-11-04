@@ -20,15 +20,11 @@ cat = {"OriginalQuery": "original_query",
     }
 
 def main():
-    # path =  "/home/guzpenha/personal/disentangled_information_needs/data/results/per_query_all_antique.csv"
-    # # path =  "/home/guzpenha/personal/disentangled_information_needs/data/results/per_query_all_msmarco-passage-trec-dl.csv"
-    # df = pd.read_csv(path, sep='\t')
-    # df = df[df["measure"] == 'ndcg_cut_10']
-    # df.groupby(["name_x", "name_y"])['value_x'].mean()
-    path = "/home/guzpenha/personal/disentangled_information_needs/data/results/oracle/"
+    path = "/query_variation_generators/disentangled_information_needs/data/results/oracle/"
 
     task='antique'
     # task='msmarco-passage-trec-dl'
+    # task='dl-typo'
     metric = 'ndcg_cut_10'
     _, _, filenames = next(walk(path))
     dfs = []    
@@ -73,6 +69,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-##UPDATE

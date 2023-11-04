@@ -1,0 +1,474 @@
+q_id,original_query,variation,method,transformation_type
+1037798,who is robert gray,who is robret gray,WordSwapNeighboringCharacterSwap,mispelling
+1037798,who is robert gray,who is robert grzy,WordSwapQWERTY,mispelling
+1037798,who is robert gray,who is robert tray,WordSwapRandomCharacterSubstitution,mispelling
+1037798,who is robert gray,robert gray,naturality_by_removing_stop_words,naturality
+1037798,who is robert gray,robert gray is ,summarization_with_t5-base,naturality
+1037798,who is robert gray,robert gray,summarization_with_t5-base_from_description_to_title,naturality
+1037798,who is robert gray,robert is who gray,WordInnerSwapRandom,ordering
+1037798,who is robert gray,Who is Robert Grey?,back_translation_pivot_language_de,paraphrase
+1037798,who is robert gray,Who is Robert Gray?,ramsrigouthamg/t5_paraphraser,paraphrase
+1037798,who is robert gray,who is robert grays,WordSwapEmbedding,synonym
+1037798,who is robert gray,who is robert grey-haired,WordSwapWordNet,synonym
+104861,cost of interior concrete flooring,ocst of interior concrete flooring,WordSwapNeighboringCharacterSwap,mispelling
+104861,cost of interior concrete flooring,cost of interior concrete elooring,WordSwapQWERTY,mispelling
+104861,cost of interior concrete flooring,cost of interior concrete flooRing,WordSwapRandomCharacterSubstitution,mispelling
+104861,cost of interior concrete flooring,cost interior concrete flooring,naturality_by_removing_stop_words,naturality
+104861,cost of interior concrete flooring,: cost of interior concrete flooring,summarization_with_t5-base,naturality
+104861,cost of interior concrete flooring,cost of interior concrete flooring,summarization_with_t5-base_from_description_to_title,naturality
+104861,cost of interior concrete flooring,of cost interior concrete flooring,WordInnerSwapRandom,ordering
+104861,cost of interior concrete flooring,Cost of internal concrete,back_translation_pivot_language_de,paraphrase
+104861,cost of interior concrete flooring,What is the cost of interior concrete flooring?,ramsrigouthamg/t5_paraphraser,paraphrase
+104861,cost of interior concrete flooring,cost of interior concrete floor,WordSwapEmbedding,synonym
+104861,cost of interior concrete flooring,toll of interior concrete flooring,WordSwapWordNet,synonym
+1063750,why did the us volunterilay enter ww1,why did the su volunterilay enter ww1,WordSwapNeighboringCharacterSwap,mispelling
+1063750,why did the us volunterilay enter ww1,why did the us volunterilay enter ww1,WordSwapQWERTY,mispelling
+1063750,why did the us volunterilay enter ww1,why did the cs volunterilay enter ww1,WordSwapRandomCharacterSubstitution,mispelling
+1063750,why did the us volunterilay enter ww1,us volunterilay enter ww1,naturality_by_removing_stop_words,naturality
+1063750,why did the us volunterilay enter ww1,why did the us volunteri,summarization_with_t5-base,naturality
+1063750,why did the us volunterilay enter ww1,volunterilay ww,summarization_with_t5-base_from_description_to_title,naturality
+1063750,why did the us volunterilay enter ww1,why did the ww1 volunterilay enter us,WordInnerSwapRandom,ordering
+1063750,why did the us volunterilay enter ww1,Why the U.S. Volunterilay entered WW1,back_translation_pivot_language_de,paraphrase
+1063750,why did the us volunterilay enter ww1,Why did the US enter WW1?,ramsrigouthamg/t5_paraphraser,paraphrase
+1063750,why did the us volunterilay enter ww1,why did the usa volunterilay enter ww1,WordSwapEmbedding,synonym
+1063750,why did the us volunterilay enter ww1,why did the uranium volunterilay enter ww1,WordSwapWordNet,synonym
+1103812,who formed the commonwealth of independent states,who formed the commonwealth of independent sttaes,WordSwapNeighboringCharacterSwap,mispelling
+1103812,who formed the commonwealth of independent states,who formrd the commonwealth of independent states,WordSwapQWERTY,mispelling
+1103812,who formed the commonwealth of independent states,who formed the commonwealth of indepenBent states,WordSwapRandomCharacterSubstitution,mispelling
+1103812,who formed the commonwealth of independent states,formed commonwealth independent states,naturality_by_removing_stop_words,naturality
+1103812,who formed the commonwealth of independent states,the commonwealth of independent,summarization_with_t5-base,naturality
+1103812,who formed the commonwealth of independent states,commonwealth of independent states,summarization_with_t5-base_from_description_to_title,naturality
+1103812,who formed the commonwealth of independent states,formed who the commonwealth of independent states,WordInnerSwapRandom,ordering
+1103812,who formed the commonwealth of independent states,The Common Wealth of Independent States,back_translation_pivot_language_de,paraphrase
+1103812,who formed the commonwealth of independent states,Who formed the commonwealth of independent states?,ramsrigouthamg/t5_paraphraser,paraphrase
+1103812,who formed the commonwealth of independent states,who formed the commonwealth of independant states,WordSwapEmbedding,synonym
+1103812,who formed the commonwealth of independent states,who work the commonwealth of independent states,WordSwapWordNet,synonym
+1106007,define visceral?,deifne visceral?,WordSwapNeighboringCharacterSwap,mispelling
+1106007,define visceral?,defjne visceral?,WordSwapQWERTY,mispelling
+1106007,define visceral?,define viscKral?,WordSwapRandomCharacterSubstitution,mispelling
+1106007,define visceral?,define visceral?,naturality_by_removing_stop_words,naturality
+1106007,define visceral?,: visceral??,summarization_with_t5-base,naturality
+1106007,define visceral?,visceral,summarization_with_t5-base_from_description_to_title,naturality
+1106007,define visceral?,visceral define?,WordInnerSwapRandom,ordering
+1106007,define visceral?,Do you define Visceral?,back_translation_pivot_language_de,paraphrase
+1106007,define visceral?,What is visceral?,ramsrigouthamg/t5_paraphraser,paraphrase
+1106007,define visceral?,determine visceral?,WordSwapEmbedding,synonym
+1106007,define visceral?,limit visceral?,WordSwapWordNet,synonym
+1110199,what is wifi vs bluetooth,what is wifi vs buletooth,WordSwapNeighboringCharacterSwap,mispelling
+1110199,what is wifi vs bluetooth,what is wifi cs bluetooth,WordSwapQWERTY,mispelling
+1110199,what is wifi vs bluetooth,what is Tifi vs bluetooth,WordSwapRandomCharacterSubstitution,mispelling
+1110199,what is wifi vs bluetooth,wifi vs bluetooth,naturality_by_removing_stop_words,naturality
+1110199,what is wifi vs bluetooth,wifi vs bluetooth: what,summarization_with_t5-base,naturality
+1110199,what is wifi vs bluetooth,wifi vs bluetooth,summarization_with_t5-base_from_description_to_title,naturality
+1110199,what is wifi vs bluetooth,what bluetooth wifi vs is,WordInnerSwapRandom,ordering
+1110199,what is wifi vs bluetooth,What is wifi vs bluetooth,back_translation_pivot_language_de,paraphrase
+1110199,what is wifi vs bluetooth,What is the difference between wifi and bluetooth?,ramsrigouthamg/t5_paraphraser,paraphrase
+1110199,what is wifi vs bluetooth,what is wifi versus bluetooth,WordSwapEmbedding,synonym
+1110199,what is wifi vs bluetooth,what is wifi Phoebe bluetooth,WordSwapWordNet,synonym
+1112341,what is the daily life of thai people,what is the daily life of thia people,WordSwapNeighboringCharacterSwap,mispelling
+1112341,what is the daily life of thai people,what is the daily life of thai pelple,WordSwapQWERTY,mispelling
+1112341,what is the daily life of thai people,what is the daily lDfe of thai people,WordSwapRandomCharacterSubstitution,mispelling
+1112341,what is the daily life of thai people,daily life thai people,naturality_by_removing_stop_words,naturality
+1112341,what is the daily life of thai people,thai people live ,summarization_with_t5-base,naturality
+1112341,what is the daily life of thai people,thai life,summarization_with_t5-base_from_description_to_title,naturality
+1112341,what is the daily life of thai people,thai is the daily life of what people,WordInnerSwapRandom,ordering
+1112341,what is the daily life of thai people,What is the daily life of the Thai people?,back_translation_pivot_language_de,paraphrase
+1112341,what is the daily life of thai people,What is the daily life of Thai people?,ramsrigouthamg/t5_paraphraser,paraphrase
+1112341,what is the daily life of thai people,what is the daily iife of thai people,WordSwapEmbedding,synonym
+1112341,what is the daily life of thai people,what is the daily liveliness of thai people,WordSwapWordNet,synonym
+1113437,what is physical description of spruce,what is physical decsription of spruce,WordSwapNeighboringCharacterSwap,mispelling
+1113437,what is physical description of spruce,what is pnysical description of spruce,WordSwapQWERTY,mispelling
+1113437,what is physical description of spruce,what is physital description of spruce,WordSwapRandomCharacterSubstitution,mispelling
+1113437,what is physical description of spruce,physical description spruce,naturality_by_removing_stop_words,naturality
+1113437,what is physical description of spruce,spruce is a,summarization_with_t5-base,naturality
+1113437,what is physical description of spruce,spruce physical description,summarization_with_t5-base_from_description_to_title,naturality
+1113437,what is physical description of spruce,what physical is description of spruce,WordInnerSwapRandom,ordering
+1113437,what is physical description of spruce,What is the physical description of Spruce,back_translation_pivot_language_de,paraphrase
+1113437,what is physical description of spruce,What is the physical description of spruce?,ramsrigouthamg/t5_paraphraser,paraphrase
+1113437,what is physical description of spruce,what is physique description of spruce,WordSwapEmbedding,synonym
+1113437,what is physical description of spruce,what is physical description of dapper,WordSwapWordNet,synonym
+1114646,what is famvir prescribed for,what is fmavir prescribed for,WordSwapNeighboringCharacterSwap,mispelling
+1114646,what is famvir prescribed for,what is famvir prescrihed for,WordSwapQWERTY,mispelling
+1114646,what is famvir prescribed for,what is fauvir prescribed for,WordSwapRandomCharacterSubstitution,mispelling
+1114646,what is famvir prescribed for,famvir prescribed,naturality_by_removing_stop_words,naturality
+1114646,what is famvir prescribed for,famvir is a,summarization_with_t5-base,naturality
+1114646,what is famvir prescribed for,famvir,summarization_with_t5-base_from_description_to_title,naturality
+1114646,what is famvir prescribed for,what is famvir for prescribed,WordInnerSwapRandom,ordering
+1114646,what is famvir prescribed for,What is famvir prescribed for,back_translation_pivot_language_de,paraphrase
+1114646,what is famvir prescribed for,What is famvir prescribed for?,ramsrigouthamg/t5_paraphraser,paraphrase
+1114646,what is famvir prescribed for,what is famvir prescribing for,WordSwapEmbedding,synonym
+1114646,what is famvir prescribed for,what is famvir prescribe for,WordSwapWordNet,synonym
+1114819,what is durable medical equipment consist of,what is duarble medical equipment consist of,WordSwapNeighboringCharacterSwap,mispelling
+1114819,what is durable medical equipment consist of,what is durable medical equipment consjst of,WordSwapQWERTY,mispelling
+1114819,what is durable medical equipment consist of,what is Wurable medical equipment consist of,WordSwapRandomCharacterSubstitution,mispelling
+1114819,what is durable medical equipment consist of,durable medical equipment consist,naturality_by_removing_stop_words,naturality
+1114819,what is durable medical equipment consist of,durable medical equipment consist of :,summarization_with_t5-base,naturality
+1114819,what is durable medical equipment consist of,durable medical equipment,summarization_with_t5-base_from_description_to_title,naturality
+1114819,what is durable medical equipment consist of,what medical durable is equipment consist of,WordInnerSwapRandom,ordering
+1114819,what is durable medical equipment consist of,What is Sustainable Medical Equipment,back_translation_pivot_language_de,paraphrase
+1114819,what is durable medical equipment consist of,What is durable medical equipment?,ramsrigouthamg/t5_paraphraser,paraphrase
+1114819,what is durable medical equipment consist of,what is sustainable medical equipment consist of,WordSwapEmbedding,synonym
+1114819,what is durable medical equipment consist of,what is durable aesculapian equipment consist of,WordSwapWordNet,synonym
+1115776,what is an aml surveillance analyst,what is an aml surveillance anaylst,WordSwapNeighboringCharacterSwap,mispelling
+1115776,what is an aml surveillance analyst,what is an aml sudveillance analyst,WordSwapQWERTY,mispelling
+1115776,what is an aml surveillance analyst,what is an amf surveillance analyst,WordSwapRandomCharacterSubstitution,mispelling
+1115776,what is an aml surveillance analyst,aml surveillance analyst,naturality_by_removing_stop_words,naturality
+1115776,what is an aml surveillance analyst,aml surveillance analyst: what is,summarization_with_t5-base,naturality
+1115776,what is an aml surveillance analyst,aml surveillance analyst,summarization_with_t5-base_from_description_to_title,naturality
+1115776,what is an aml surveillance analyst,what aml an is surveillance analyst,WordInnerSwapRandom,ordering
+1115776,what is an aml surveillance analyst,What is an Aml Monitoring Analyst?,back_translation_pivot_language_de,paraphrase
+1115776,what is an aml surveillance analyst,What is an aml surveillance analyst?,ramsrigouthamg/t5_paraphraser,paraphrase
+1115776,what is an aml surveillance analyst,what is an aml supervised analyst,WordSwapEmbedding,synonym
+1115776,what is an aml surveillance analyst,what is an aml surveillance psychoanalyst,WordSwapWordNet,synonym
+1117099,what is a active margin,what is a active marign,WordSwapNeighboringCharacterSwap,mispelling
+1117099,what is a active margin,what is a active mqrgin,WordSwapQWERTY,mispelling
+1117099,what is a active margin,what is a active mlrgin,WordSwapRandomCharacterSubstitution,mispelling
+1117099,what is a active margin,active margin,naturality_by_removing_stop_words,naturality
+1117099,what is a active margin,: what is a active,summarization_with_t5-base,naturality
+1117099,what is a active margin,active margin,summarization_with_t5-base_from_description_to_title,naturality
+1117099,what is a active margin,what is a margin active,WordInnerSwapRandom,ordering
+1117099,what is a active margin,What is an active margin,back_translation_pivot_language_de,paraphrase
+1117099,what is a active margin,What is active margin?,ramsrigouthamg/t5_paraphraser,paraphrase
+1117099,what is a active margin,what is a active marge,WordSwapEmbedding,synonym
+1117099,what is a active margin,what is a active border,WordSwapWordNet,synonym
+1121402,what can contour plowing reduce,what can contour plowing reduec,WordSwapNeighboringCharacterSwap,mispelling
+1121402,what can contour plowing reduce,what can cintour plowing reduce,WordSwapQWERTY,mispelling
+1121402,what can contour plowing reduce,what can conttur plowing reduce,WordSwapRandomCharacterSubstitution,mispelling
+1121402,what can contour plowing reduce,contour plowing reduce,naturality_by_removing_stop_words,naturality
+1121402,what can contour plowing reduce,contour plowing: what can contour,summarization_with_t5-base,naturality
+1121402,what can contour plowing reduce,contour plowing,summarization_with_t5-base_from_description_to_title,naturality
+1121402,what can contour plowing reduce,can what contour plowing reduce,WordInnerSwapRandom,ordering
+1121402,what can contour plowing reduce,What Can Reduce Contour Plowing,back_translation_pivot_language_de,paraphrase
+1121402,what can contour plowing reduce,What can contour plowing reduce?,ramsrigouthamg/t5_paraphraser,paraphrase
+1121402,what can contour plowing reduce,what can contour plowing lowered,WordSwapEmbedding,synonym
+1121402,what can contour plowing reduce,what can contour plowing concentrate,WordSwapWordNet,synonym
+1121709,what are the three percenters?,what are the htree percenters?,WordSwapNeighboringCharacterSwap,mispelling
+1121709,what are the three percenters?,what are the thrwe percenters?,WordSwapQWERTY,mispelling
+1121709,what are the three percenters?,what are the three percentErs?,WordSwapRandomCharacterSubstitution,mispelling
+1121709,what are the three percenters?,three percenters?,naturality_by_removing_stop_words,naturality
+1121709,what are the three percenters?,: what are the three percent,summarization_with_t5-base,naturality
+1121709,what are the three percenters?,three percenters,summarization_with_t5-base_from_description_to_title,naturality
+1121709,what are the three percenters?,what are the percenters three?,WordInnerSwapRandom,ordering
+1121709,what are the three percenters?,What are the three percent?,back_translation_pivot_language_de,paraphrase
+1121709,what are the three percenters?,What are the three percenters?,ramsrigouthamg/t5_paraphraser,paraphrase
+1121709,what are the three percenters?,what are the tres percenters?,WordSwapEmbedding,synonym
+1121709,what are the three percenters?,what are the triad percenters?,WordSwapWordNet,synonym
+1124210,tracheids are part of _____.,tracehids are part of _____.,WordSwapNeighboringCharacterSwap,mispelling
+1124210,tracheids are part of _____.,tracheids are lart of _____.,WordSwapQWERTY,mispelling
+1124210,tracheids are part of _____.,tracheids are parX of _____.,WordSwapRandomCharacterSubstitution,mispelling
+1124210,tracheids are part of _____.,tracheids part _____.,naturality_by_removing_stop_words,naturality
+1124210,tracheids are part of _____.,tracheids are,summarization_with_t5-base,naturality
+1124210,tracheids are part of _____.,tracheoids,summarization_with_t5-base_from_description_to_title,naturality
+1124210,tracheids are part of _____.,tracheids of part are _____.,WordInnerSwapRandom,ordering
+1124210,tracheids are part of _____.,Tracheids are part of _____.,back_translation_pivot_language_de,paraphrase
+1124210,tracheids are part of _____.,Are tracheids a part of _____?,ramsrigouthamg/t5_paraphraser,paraphrase
+1124210,tracheids are part of _____.,tracheids are portion of _____.,WordSwapEmbedding,synonym
+1124210,tracheids are part of _____.,tracheids are division of _____.,WordSwapWordNet,synonym
+1129237,hydrogen is a liquid below what temperature,yhdrogen is a liquid below what temperature,WordSwapNeighboringCharacterSwap,mispelling
+1129237,hydrogen is a liquid below what temperature,gydrogen is a liquid below what temperature,WordSwapQWERTY,mispelling
+1129237,hydrogen is a liquid below what temperature,hydlogen is a liquid below what temperature,WordSwapRandomCharacterSubstitution,mispelling
+1129237,hydrogen is a liquid below what temperature,hydrogen liquid temperature,naturality_by_removing_stop_words,naturality
+1129237,hydrogen is a liquid below what temperature,hydrogen is a liquid below what,summarization_with_t5-base,naturality
+1129237,hydrogen is a liquid below what temperature,hydrogen liquid below what temperature,summarization_with_t5-base_from_description_to_title,naturality
+1129237,hydrogen is a liquid below what temperature,hydrogen is what liquid below a temperature,WordInnerSwapRandom,ordering
+1129237,hydrogen is a liquid below what temperature,Hydrogen is a fluid under which temperature,back_translation_pivot_language_de,paraphrase
+1129237,hydrogen is a liquid below what temperature,Is hydrogen a liquid below what temperature?,ramsrigouthamg/t5_paraphraser,paraphrase
+1129237,hydrogen is a liquid below what temperature,hydrogen is a liquefied below what temperature,WordSwapEmbedding,synonym
+1129237,hydrogen is a liquid below what temperature,hydrogen is a melted below what temperature,WordSwapWordNet,synonym
+1133167,how is the weather in jamaica,how is the weather in jaamica,WordSwapNeighboringCharacterSwap,mispelling
+1133167,how is the weather in jamaica,how is the weather in jamauca,WordSwapQWERTY,mispelling
+1133167,how is the weather in jamaica,how is the weather in Uamaica,WordSwapRandomCharacterSubstitution,mispelling
+1133167,how is the weather in jamaica,weather jamaica,naturality_by_removing_stop_words,naturality
+1133167,how is the weather in jamaica,the weather in jamaica is,summarization_with_t5-base,naturality
+1133167,how is the weather in jamaica,jamaica weather,summarization_with_t5-base_from_description_to_title,naturality
+1133167,how is the weather in jamaica,how is in weather the jamaica,WordInnerSwapRandom,ordering
+1133167,how is the weather in jamaica,How is the weather in Jamaica,back_translation_pivot_language_de,paraphrase
+1133167,how is the weather in jamaica,How is the weather in Jamaica?,ramsrigouthamg/t5_paraphraser,paraphrase
+1133167,how is the weather in jamaica,how is the weatherman in jamaica,WordSwapEmbedding,synonym
+1133167,how is the weather in jamaica,how is the conditions in jamaica,WordSwapWordNet,synonym
+130510,definition declaratory judgment,definition declraatory judgment,WordSwapNeighboringCharacterSwap,mispelling
+130510,definition declaratory judgment,definition declaratory uudgment,WordSwapQWERTY,mispelling
+130510,definition declaratory judgment,dNfinition declaratory judgment,WordSwapRandomCharacterSubstitution,mispelling
+130510,definition declaratory judgment,definition declaratory judgment,naturality_by_removing_stop_words,naturality
+130510,definition declaratory judgment,: definition declaratory judgment?,summarization_with_t5-base,naturality
+130510,definition declaratory judgment,declaratory judgment,summarization_with_t5-base_from_description_to_title,naturality
+130510,definition declaratory judgment,declaratory definition judgment,WordInnerSwapRandom,ordering
+130510,definition declaratory judgment,Definition of declaring judgment,back_translation_pivot_language_de,paraphrase
+130510,definition declaratory judgment,What is declaratory judgment?,ramsrigouthamg/t5_paraphraser,paraphrase
+130510,definition declaratory judgment,definition declaratory judgments,WordSwapEmbedding,synonym
+130510,definition declaratory judgment,definition declarative judgment,WordSwapWordNet,synonym
+131843,definition of a sigmet,definition of a sigemt,WordSwapNeighboringCharacterSwap,mispelling
+131843,definition of a sigmet,definition of a sihmet,WordSwapQWERTY,mispelling
+131843,definition of a sigmet,defiIition of a sigmet,WordSwapRandomCharacterSubstitution,mispelling
+131843,definition of a sigmet,definition sigmet,naturality_by_removing_stop_words,naturality
+131843,definition of a sigmet,sigmet: what is ,summarization_with_t5-base,naturality
+131843,definition of a sigmet,sigmet,summarization_with_t5-base_from_description_to_title,naturality
+131843,definition of a sigmet,a of definition sigmet,WordInnerSwapRandom,ordering
+131843,definition of a sigmet,Definition of a Sigmet,back_translation_pivot_language_de,paraphrase
+131843,definition of a sigmet,What is a sigmet?,ramsrigouthamg/t5_paraphraser,paraphrase
+131843,definition of a sigmet,define of a sigmet,WordSwapEmbedding,synonym
+131843,definition of a sigmet,definition of a sigmet,WordSwapWordNet,synonym
+146187,difference between a mcdouble and a double cheeseburger,difference between a mcdobule and a double cheeseburger,WordSwapNeighboringCharacterSwap,mispelling
+146187,difference between a mcdouble and a double cheeseburger,difference between a mcdoible and a double cheeseburger,WordSwapQWERTY,mispelling
+146187,difference between a mcdouble and a double cheeseburger,difference between a mcdouble and a double cheeSeburger,WordSwapRandomCharacterSubstitution,mispelling
+146187,difference between a mcdouble and a double cheeseburger,difference mcdouble double cheeseburger,naturality_by_removing_stop_words,naturality
+146187,difference between a mcdouble and a double cheeseburger,mcdouble and double cheese,summarization_with_t5-base,naturality
+146187,difference between a mcdouble and a double cheeseburger,mcdouble cheeseburger,summarization_with_t5-base_from_description_to_title,naturality
+146187,difference between a mcdouble and a double cheeseburger,difference cheeseburger a mcdouble and a double between,WordInnerSwapRandom,ordering
+146187,difference between a mcdouble and a double cheeseburger,Difference Between a McDouble and a Double Cheeseburger,back_translation_pivot_language_de,paraphrase
+146187,difference between a mcdouble and a double cheeseburger,What is the difference between a double cheeseburger and a mcdouble?,ramsrigouthamg/t5_paraphraser,paraphrase
+146187,difference between a mcdouble and a double cheeseburger,difference between a mcdouble and a doubly cheeseburger,WordSwapEmbedding,synonym
+146187,difference between a mcdouble and a double cheeseburger,difference between a mcdouble and a doubling cheeseburger,WordSwapWordNet,synonym
+148538,difference between rn and bsn,differecne between rn and bsn,WordSwapNeighboringCharacterSwap,mispelling
+148538,difference between rn and bsn,differenfe between rn and bsn,WordSwapQWERTY,mispelling
+148538,difference between rn and bsn,difference between rn and bQn,WordSwapRandomCharacterSubstitution,mispelling
+148538,difference between rn and bsn,difference rn bsn,naturality_by_removing_stop_words,naturality
+148538,difference between rn and bsn,rn and bs,summarization_with_t5-base,naturality
+148538,difference between rn and bsn,difference between rn and ,summarization_with_t5-base_from_description_to_title,naturality
+148538,difference between rn and bsn,difference rn between and bsn,WordInnerSwapRandom,ordering
+148538,difference between rn and bsn,Difference between rn and bsn,back_translation_pivot_language_de,paraphrase
+148538,difference between rn and bsn,What is the difference between rn and bsn?,ramsrigouthamg/t5_paraphraser,paraphrase
+148538,difference between rn and bsn,variance between rn and bsn,WordSwapEmbedding,synonym
+148538,difference between rn and bsn,dispute between rn and bsn,WordSwapWordNet,synonym
+156493,do goldfish grow,do goldfish gorw,WordSwapNeighboringCharacterSwap,mispelling
+156493,do goldfish grow,do goldfish grkw,WordSwapQWERTY,mispelling
+156493,do goldfish grow,do roldfish grow,WordSwapRandomCharacterSubstitution,mispelling
+156493,do goldfish grow,goldfish grow,naturality_by_removing_stop_words,naturality
+156493,do goldfish grow,goldfish grow?,summarization_with_t5-base,naturality
+156493,do goldfish grow,goldfish,summarization_with_t5-base_from_description_to_title,naturality
+156493,do goldfish grow,grow goldfish do,WordInnerSwapRandom,ordering
+156493,do goldfish grow,Gold Fish Grows,back_translation_pivot_language_de,paraphrase
+156493,do goldfish grow,How do goldfish grow?,ramsrigouthamg/t5_paraphraser,paraphrase
+156493,do goldfish grow,do goldfish growth,WordSwapEmbedding,synonym
+156493,do goldfish grow,do goldfish maturate,WordSwapWordNet,synonym
+168216,does legionella pneumophila cause pneumonia,does lgeionella pneumophila cause pneumonia,WordSwapNeighboringCharacterSwap,mispelling
+168216,does legionella pneumophila cause pneumonia,does legionelpa pneumophila cause pneumonia,WordSwapQWERTY,mispelling
+168216,does legionella pneumophila cause pneumonia,does legionella pneumophila cause Pneumonia,WordSwapRandomCharacterSubstitution,mispelling
+168216,does legionella pneumophila cause pneumonia,legionella pneumophila cause pneumonia,naturality_by_removing_stop_words,naturality
+168216,does legionella pneumophila cause pneumonia,legionella pneumophila,summarization_with_t5-base,naturality
+168216,does legionella pneumophila cause pneumonia,legionella pneumophila,summarization_with_t5-base_from_description_to_title,naturality
+168216,does legionella pneumophila cause pneumonia,does legionella pneumophila pneumonia cause,WordInnerSwapRandom,ordering
+168216,does legionella pneumophila cause pneumonia,Legionella pneumophila causes pneumonia,back_translation_pivot_language_de,paraphrase
+168216,does legionella pneumophila cause pneumonia,Does legionella pneumophila cause pneumonia?,ramsrigouthamg/t5_paraphraser,paraphrase
+168216,does legionella pneumophila cause pneumonia,does legionella pneumophila reason pneumonia,WordSwapEmbedding,synonym
+168216,does legionella pneumophila cause pneumonia,does legionella pneumophila have pneumonia,WordSwapWordNet,synonym
+182539,example of monotonic function,example of monotonic funciton,WordSwapNeighboringCharacterSwap,mispelling
+182539,example of monotonic function,example of monotonic functioj,WordSwapQWERTY,mispelling
+182539,example of monotonic function,examMle of monotonic function,WordSwapRandomCharacterSubstitution,mispelling
+182539,example of monotonic function,example monotonic function,naturality_by_removing_stop_words,naturality
+182539,example of monotonic function,: example of monotonic function,summarization_with_t5-base,naturality
+182539,example of monotonic function,monotonic function,summarization_with_t5-base_from_description_to_title,naturality
+182539,example of monotonic function,example of function monotonic,WordInnerSwapRandom,ordering
+182539,example of monotonic function,Examples of monotonous function,back_translation_pivot_language_de,paraphrase
+182539,example of monotonic function,What is a monotonic function? What are some examples?,ramsrigouthamg/t5_paraphraser,paraphrase
+182539,example of monotonic function,instance of monotonic function,WordSwapEmbedding,synonym
+182539,example of monotonic function,instance of monotonic function,WordSwapWordNet,synonym
+183378,exons definition biology,exons definition biolgoy,WordSwapNeighboringCharacterSwap,mispelling
+183378,exons definition biology,exons definition biilogy,WordSwapQWERTY,mispelling
+183378,exons definition biology,exonq definition biology,WordSwapRandomCharacterSubstitution,mispelling
+183378,exons definition biology,exons definition biology,naturality_by_removing_stop_words,naturality
+183378,exons definition biology,: exons definition biology,summarization_with_t5-base,naturality
+183378,exons definition biology,exons biology,summarization_with_t5-base_from_description_to_title,naturality
+183378,exons definition biology,definition exons biology,WordInnerSwapRandom,ordering
+183378,exons definition biology,Exon Definition Biology,back_translation_pivot_language_de,paraphrase
+183378,exons definition biology,What is the exons definition of biology?,ramsrigouthamg/t5_paraphraser,paraphrase
+183378,exons definition biology,exons definition biological,WordSwapEmbedding,synonym
+183378,exons definition biology,exons definition biota,WordSwapWordNet,synonym
+19335,anthropological definition of environment,anthrpoological definition of environment,WordSwapNeighboringCharacterSwap,mispelling
+19335,anthropological definition of environment,anthropological xefinition of environment,WordSwapQWERTY,mispelling
+19335,anthropological definition of environment,anthropological definitson of environment,WordSwapRandomCharacterSubstitution,mispelling
+19335,anthropological definition of environment,anthropological definition environment,naturality_by_removing_stop_words,naturality
+19335,anthropological definition of environment,anthropological definition of environment?,summarization_with_t5-base,naturality
+19335,anthropological definition of environment,environment anthropology,summarization_with_t5-base_from_description_to_title,naturality
+19335,anthropological definition of environment,definition anthropological of environment,WordInnerSwapRandom,ordering
+19335,anthropological definition of environment,Anthropological definition of the environment,back_translation_pivot_language_de,paraphrase
+19335,anthropological definition of environment,What is the anthropological definition of environment?,ramsrigouthamg/t5_paraphraser,paraphrase
+19335,anthropological definition of environment,anthropological definition of surroundings,WordSwapEmbedding,synonym
+19335,anthropological definition of environment,anthropological definition of surroundings,WordSwapWordNet,synonym
+207786,how are some sharks warm blooded,how are some sharks wram blooded,WordSwapNeighboringCharacterSwap,mispelling
+207786,how are some sharks warm blooded,how are some sharks warm biooded,WordSwapQWERTY,mispelling
+207786,how are some sharks warm blooded,how are some shWrks warm blooded,WordSwapRandomCharacterSubstitution,mispelling
+207786,how are some sharks warm blooded,sharks warm blooded,naturality_by_removing_stop_words,naturality
+207786,how are some sharks warm blooded,how are some sharks warm blood,summarization_with_t5-base,naturality
+207786,how are some sharks warm blooded,sharks warm blooded,summarization_with_t5-base_from_description_to_title,naturality
+207786,how are some sharks warm blooded,blooded are some sharks warm how,WordInnerSwapRandom,ordering
+207786,how are some sharks warm blooded,How are some sharks hot blood?,back_translation_pivot_language_de,paraphrase
+207786,how are some sharks warm blooded,How do sharks get warm blooded?,ramsrigouthamg/t5_paraphraser,paraphrase
+207786,how are some sharks warm blooded,how are some shark warm blooded,WordSwapEmbedding,synonym
+207786,how are some sharks warm blooded,how are some sharks fond blooded,WordSwapWordNet,synonym
+264014,how long is life cycle of flea,how long is life yccle of flea,WordSwapNeighboringCharacterSwap,mispelling
+264014,how long is life cycle of flea,how long is lufe cycle of flea,WordSwapQWERTY,mispelling
+264014,how long is life cycle of flea,how long is lCfe cycle of flea,WordSwapRandomCharacterSubstitution,mispelling
+264014,how long is life cycle of flea,long life cycle flea,naturality_by_removing_stop_words,naturality
+264014,how long is life cycle of flea,flea life cycle: how long,summarization_with_t5-base,naturality
+264014,how long is life cycle of flea,flea life cycle,summarization_with_t5-base_from_description_to_title,naturality
+264014,how long is life cycle of flea,long how is life cycle of flea,WordInnerSwapRandom,ordering
+264014,how long is life cycle of flea,How long is the life cycle of the flies?,back_translation_pivot_language_de,paraphrase
+264014,how long is life cycle of flea,How long is the life cycle of fleas?,ramsrigouthamg/t5_paraphraser,paraphrase
+264014,how long is life cycle of flea,how long is living cycle of flea,WordSwapEmbedding,synonym
+264014,how long is life cycle of flea,how long is sprightliness cycle of flea,WordSwapWordNet,synonym
+359349,how to find the midsegment of a trapezoid,how to find the midsemgent of a trapezoid,WordSwapNeighboringCharacterSwap,mispelling
+359349,how to find the midsegment of a trapezoid,how to find the midssgment of a trapezoid,WordSwapQWERTY,mispelling
+359349,how to find the midsegment of a trapezoid,how to find the midsegpent of a trapezoid,WordSwapRandomCharacterSubstitution,mispelling
+359349,how to find the midsegment of a trapezoid,find midsegment trapezoid,naturality_by_removing_stop_words,naturality
+359349,how to find the midsegment of a trapezoid,how to find the midse,summarization_with_t5-base,naturality
+359349,how to find the midsegment of a trapezoid,trapezoidal midseg,summarization_with_t5-base_from_description_to_title,naturality
+359349,how to find the midsegment of a trapezoid,how to midsegment the find of a trapezoid,WordInnerSwapRandom,ordering
+359349,how to find the midsegment of a trapezoid,How to find the middle segment of a trapezoid,back_translation_pivot_language_de,paraphrase
+359349,how to find the midsegment of a trapezoid,How do you find the midsegment of a trapezoid?,ramsrigouthamg/t5_paraphraser,paraphrase
+359349,how to find the midsegment of a trapezoid,how to unearth the midsegment of a trapezoid,WordSwapEmbedding,synonym
+359349,how to find the midsegment of a trapezoid,how to breakthrough the midsegment of a trapezoid,WordSwapWordNet,synonym
+405717,is cdg airport in main paris,is cgd airport in main paris,WordSwapNeighboringCharacterSwap,mispelling
+405717,is cdg airport in main paris,is cdg airport in main pqris,WordSwapQWERTY,mispelling
+405717,is cdg airport in main paris,is edg airport in main paris,WordSwapRandomCharacterSubstitution,mispelling
+405717,is cdg airport in main paris,cdg airport main paris,naturality_by_removing_stop_words,naturality
+405717,is cdg airport in main paris,cdg airport in main,summarization_with_t5-base,naturality
+405717,is cdg airport in main paris,paris cdg airport,summarization_with_t5-base_from_description_to_title,naturality
+405717,is cdg airport in main paris,is cdg airport in paris main,WordInnerSwapRandom,ordering
+405717,is cdg airport in main paris,is CDG Airport in the headquarters of Paris,back_translation_pivot_language_de,paraphrase
+405717,is cdg airport in main paris,Is there a cdg airport in Paris?,ramsrigouthamg/t5_paraphraser,paraphrase
+405717,is cdg airport in main paris,is cdg airfields in main paris,WordSwapEmbedding,synonym
+405717,is cdg airport in main paris,is cdg airport in primary paris,WordSwapWordNet,synonym
+443396,lps laws definition,lps alws definition,WordSwapNeighboringCharacterSwap,mispelling
+443396,lps laws definition,lps lqws definition,WordSwapQWERTY,mispelling
+443396,lps laws definition,lps laMs definition,WordSwapRandomCharacterSubstitution,mispelling
+443396,lps laws definition,lps laws definition,naturality_by_removing_stop_words,naturality
+443396,lps laws definition,lps laws definition?,summarization_with_t5-base,naturality
+443396,lps laws definition,lps laws,summarization_with_t5-base_from_description_to_title,naturality
+443396,lps laws definition,laws lps definition,WordInnerSwapRandom,ordering
+443396,lps laws definition,LPS Law Definition,back_translation_pivot_language_de,paraphrase
+443396,lps laws definition,What is the definition of lps law?,ramsrigouthamg/t5_paraphraser,paraphrase
+443396,lps laws definition,lps lois definition,WordSwapEmbedding,synonym
+443396,lps laws definition,lps police definition,WordSwapWordNet,synonym
+451602,medicare's definition of mechanical ventilation,medicare's definition of mechanical ventilatoin,WordSwapNeighboringCharacterSwap,mispelling
+451602,medicare's definition of mechanical ventilation,medicare's definition of mechanical ventilation,WordSwapQWERTY,mispelling
+451602,medicare's definition of mechanical ventilation,medicare's definition of mWchanical ventilation,WordSwapRandomCharacterSubstitution,mispelling
+451602,medicare's definition of mechanical ventilation,medicare's definition mechanical ventilation,naturality_by_removing_stop_words,naturality
+451602,medicare's definition of mechanical ventilation,medicare's definition of mechanical,summarization_with_t5-base,naturality
+451602,medicare's definition of mechanical ventilation,medicare mechanical ventilation,summarization_with_t5-base_from_description_to_title,naturality
+451602,medicare's definition of mechanical ventilation,definition medicare's of mechanical ventilation,WordInnerSwapRandom,ordering
+451602,medicare's definition of mechanical ventilation,Doctors Define Mechanical Ventilation,back_translation_pivot_language_de,paraphrase
+451602,medicare's definition of mechanical ventilation,What is the medicare definition of mechanical ventilation?,ramsrigouthamg/t5_paraphraser,paraphrase
+451602,medicare's definition of mechanical ventilation,medicare's definition of mechanised ventilation,WordSwapEmbedding,synonym
+451602,medicare's definition of mechanical ventilation,medicare's definition of mechanical airing,WordSwapWordNet,synonym
+47923,axon terminals or synaptic knob definition,aoxn terminals or synaptic knob definition,WordSwapNeighboringCharacterSwap,mispelling
+47923,axon terminals or synaptic knob definition,axon terminals or synaptic knkb definition,WordSwapQWERTY,mispelling
+47923,axon terminals or synaptic knob definition,axon terminals or synaptic kSob definition,WordSwapRandomCharacterSubstitution,mispelling
+47923,axon terminals or synaptic knob definition,axon terminals synaptic knob definition,naturality_by_removing_stop_words,naturality
+47923,axon terminals or synaptic knob definition,axon terminals or,summarization_with_t5-base,naturality
+47923,axon terminals or synaptic knob definition,axon terminals or,summarization_with_t5-base_from_description_to_title,naturality
+47923,axon terminals or synaptic knob definition,axon or terminals synaptic knob definition,WordInnerSwapRandom,ordering
+47923,axon terminals or synaptic knob definition,axon terminals or synaptic nod definition,back_translation_pivot_language_de,paraphrase
+47923,axon terminals or synaptic knob definition,What is the difference between axon terminals and synaptic knobs?,ramsrigouthamg/t5_paraphraser,paraphrase
+47923,axon terminals or synaptic knob definition,axon terminals or synaptic knob define,WordSwapEmbedding,synonym
+47923,axon terminals or synaptic knob definition,axon depot or synaptic knob definition,WordSwapWordNet,synonym
+489204,right pelvic pain causes,right pelvic pian causes,WordSwapNeighboringCharacterSwap,mispelling
+489204,right pelvic pain causes,right pelvix pain causes,WordSwapQWERTY,mispelling
+489204,right pelvic pain causes,right pelvAc pain causes,WordSwapRandomCharacterSubstitution,mispelling
+489204,right pelvic pain causes,right pelvic pain causes,naturality_by_removing_stop_words,naturality
+489204,right pelvic pain causes,right pelvic pain causes?,summarization_with_t5-base,naturality
+489204,right pelvic pain causes,pelvic pain,summarization_with_t5-base_from_description_to_title,naturality
+489204,right pelvic pain causes,right causes pain pelvic,WordInnerSwapRandom,ordering
+489204,right pelvic pain causes,Causes Right Pain,back_translation_pivot_language_de,paraphrase
+489204,right pelvic pain causes,What causes pelvic pain?,ramsrigouthamg/t5_paraphraser,paraphrase
+489204,right pelvic pain causes,right pelvic pain arouses,WordSwapEmbedding,synonym
+489204,right pelvic pain causes,rectify pelvic pain causes,WordSwapWordNet,synonym
+490595,rsa definition key,rsa definition kye,WordSwapNeighboringCharacterSwap,mispelling
+490595,rsa definition key,rsa definihion key,WordSwapQWERTY,mispelling
+490595,rsa definition key,rsa definition kGy,WordSwapRandomCharacterSubstitution,mispelling
+490595,rsa definition key,rsa definition key,naturality_by_removing_stop_words,naturality
+490595,rsa definition key,rsa definition key?,summarization_with_t5-base,naturality
+490595,rsa definition key,rsa definition key,summarization_with_t5-base_from_description_to_title,naturality
+490595,rsa definition key,definition rsa key,WordInnerSwapRandom,ordering
+490595,rsa definition key,RSA Definition Key,back_translation_pivot_language_de,paraphrase
+490595,rsa definition key,What is rsa definition key?,ramsrigouthamg/t5_paraphraser,paraphrase
+490595,rsa definition key,rsa definition important,WordSwapEmbedding,synonym
+490595,rsa definition key,rsa definition tonality,WordSwapWordNet,synonym
+527433,types of dysarthria from cerebral palsy,types of dysartrhia from cerebral palsy,WordSwapNeighboringCharacterSwap,mispelling
+527433,types of dysarthria from cerebral palsy,types of dysarthria from cerebgal palsy,WordSwapQWERTY,mispelling
+527433,types of dysarthria from cerebral palsy,qypes of dysarthria from cerebral palsy,WordSwapRandomCharacterSubstitution,mispelling
+527433,types of dysarthria from cerebral palsy,types dysarthria cerebral palsy,naturality_by_removing_stop_words,naturality
+527433,types of dysarthria from cerebral palsy,Types of dysarthri,summarization_with_t5-base,naturality
+527433,types of dysarthria from cerebral palsy,cerebral palsy dysarthr,summarization_with_t5-base_from_description_to_title,naturality
+527433,types of dysarthria from cerebral palsy,palsy of dysarthria from cerebral types,WordInnerSwapRandom,ordering
+527433,types of dysarthria from cerebral palsy,Types of Dysarthria from Brain Palsy,back_translation_pivot_language_de,paraphrase
+527433,types of dysarthria from cerebral palsy,What are the types of dysarthria from cerebral palsy?,ramsrigouthamg/t5_paraphraser,paraphrase
+527433,types of dysarthria from cerebral palsy,types of dysarthria from cerebral paralysis,WordSwapEmbedding,synonym
+527433,types of dysarthria from cerebral palsy,case of dysarthria from cerebral palsy,WordSwapWordNet,synonym
+573724,what are the social determinants of health,what are the social deterimnants of health,WordSwapNeighboringCharacterSwap,mispelling
+573724,what are the social determinants of health,what are the social determinanfs of health,WordSwapQWERTY,mispelling
+573724,what are the social determinants of health,what are the socwal determinants of health,WordSwapRandomCharacterSubstitution,mispelling
+573724,what are the social determinants of health,social determinants health,naturality_by_removing_stop_words,naturality
+573724,what are the social determinants of health,social determinants of health:,summarization_with_t5-base,naturality
+573724,what are the social determinants of health,social determinants of health,summarization_with_t5-base_from_description_to_title,naturality
+573724,what are the social determinants of health,of are the social determinants what health,WordInnerSwapRandom,ordering
+573724,what are the social determinants of health,What are the social factors of health,back_translation_pivot_language_de,paraphrase
+573724,what are the social determinants of health,What are social determinants of health?,ramsrigouthamg/t5_paraphraser,paraphrase
+573724,what are the social determinants of health,what are the social determinants of hygiene,WordSwapEmbedding,synonym
+573724,what are the social determinants of health,what are the mixer determinants of health,WordSwapWordNet,synonym
+833860,what is the most popular food in switzerland,what is the most populra food in switzerland,WordSwapNeighboringCharacterSwap,mispelling
+833860,what is the most popular food in switzerland,what is the most popular fpod in switzerland,WordSwapQWERTY,mispelling
+833860,what is the most popular food in switzerland,what is the most popular flod in switzerland,WordSwapRandomCharacterSubstitution,mispelling
+833860,what is the most popular food in switzerland,popular food switzerland,naturality_by_removing_stop_words,naturality
+833860,what is the most popular food in switzerland,the most popular food in s,summarization_with_t5-base,naturality
+833860,what is the most popular food in switzerland,food in switzerland,summarization_with_t5-base_from_description_to_title,naturality
+833860,what is the most popular food in switzerland,what is switzerland most popular food in the,WordInnerSwapRandom,ordering
+833860,what is the most popular food in switzerland,What is the most popular food in Switzerland,back_translation_pivot_language_de,paraphrase
+833860,what is the most popular food in switzerland,What is the most popular food in Switzerland?,ramsrigouthamg/t5_paraphraser,paraphrase
+833860,what is the most popular food in switzerland,what is the most popular alimentary in switzerland,WordSwapEmbedding,synonym
+833860,what is the most popular food in switzerland,what is the most popular food in Svizzera,WordSwapWordNet,synonym
+855410,what is theraderm used for,what is theraderm sued for,WordSwapNeighboringCharacterSwap,mispelling
+855410,what is theraderm used for,what is thersderm used for,WordSwapQWERTY,mispelling
+855410,what is theraderm used for,what is theraderm usSd for,WordSwapRandomCharacterSubstitution,mispelling
+855410,what is theraderm used for,theraderm used,naturality_by_removing_stop_words,naturality
+855410,what is theraderm used for,theraderm is a,summarization_with_t5-base,naturality
+855410,what is theraderm used for,theraderm,summarization_with_t5-base_from_description_to_title,naturality
+855410,what is theraderm used for,what is used theraderm for,WordInnerSwapRandom,ordering
+855410,what is theraderm used for,What is Theraderm used,back_translation_pivot_language_de,paraphrase
+855410,what is theraderm used for,What is theraderm used for?,ramsrigouthamg/t5_paraphraser,paraphrase
+855410,what is theraderm used for,what is theraderm utilizing for,WordSwapEmbedding,synonym
+855410,what is theraderm used for,what is theraderm utilise for,WordSwapWordNet,synonym
+87181,causes of left ventricular hypertrophy,causes of left ventriuclar hypertrophy,WordSwapNeighboringCharacterSwap,mispelling
+87181,causes of left ventricular hypertrophy,causes of left vemtricular hypertrophy,WordSwapQWERTY,mispelling
+87181,causes of left ventricular hypertrophy,causes of left ventricular hypertrophD,WordSwapRandomCharacterSubstitution,mispelling
+87181,causes of left ventricular hypertrophy,causes left ventricular hypertrophy,naturality_by_removing_stop_words,naturality
+87181,causes of left ventricular hypertrophy,links ventricular hypertrophy?,summarization_with_t5-base,naturality
+87181,causes of left ventricular hypertrophy,left ventricular hypertrophy,summarization_with_t5-base_from_description_to_title,naturality
+87181,causes of left ventricular hypertrophy,causes hypertrophy left ventricular of,WordInnerSwapRandom,ordering
+87181,causes of left ventricular hypertrophy,Causes of Ventricular Hypertrophy,back_translation_pivot_language_de,paraphrase
+87181,causes of left ventricular hypertrophy,What causes left ventricular hypertrophy?,ramsrigouthamg/t5_paraphraser,paraphrase
+87181,causes of left ventricular hypertrophy,causes of left fibrillation hypertrophy,WordSwapEmbedding,synonym
+87181,causes of left ventricular hypertrophy,make of left ventricular hypertrophy,WordSwapWordNet,synonym
+87452,causes of military suicide,causes of militray suicide,WordSwapNeighboringCharacterSwap,mispelling
+87452,causes of military suicide,causes of militaru suicide,WordSwapQWERTY,mispelling
+87452,causes of military suicide,causes of military tuicide,WordSwapRandomCharacterSubstitution,mispelling
+87452,causes of military suicide,causes military suicide,naturality_by_removing_stop_words,naturality
+87452,causes of military suicide,: causes of military suicide?,summarization_with_t5-base,naturality
+87452,causes of military suicide,military suicide,summarization_with_t5-base_from_description_to_title,naturality
+87452,causes of military suicide,causes suicide military of,WordInnerSwapRandom,ordering
+87452,causes of military suicide,Causes of Military Suicide,back_translation_pivot_language_de,paraphrase
+87452,causes of military suicide,What are the causes of military suicide?,ramsrigouthamg/t5_paraphraser,paraphrase
+87452,causes of military suicide,causes of soldiers suicide,WordSwapEmbedding,synonym
+87452,causes of military suicide,drive of military suicide,WordSwapWordNet,synonym
+915593,what types of food can you cook sous vide,what types of fodo can you cook sous vide,WordSwapNeighboringCharacterSwap,mispelling
+915593,what types of food can you cook sous vide,what types of food can you cook sous vidr,WordSwapQWERTY,mispelling
+915593,what types of food can you cook sous vide,what types of Aood can you cook sous vide,WordSwapRandomCharacterSubstitution,mispelling
+915593,what types of food can you cook sous vide,types food cook sous vide,naturality_by_removing_stop_words,naturality
+915593,what types of food can you cook sous vide,what types of food can you cook,summarization_with_t5-base,naturality
+915593,what types of food can you cook sous vide,sous vide food,summarization_with_t5-base_from_description_to_title,naturality
+915593,what types of food can you cook sous vide,what types you food can of cook sous vide,WordInnerSwapRandom,ordering
+915593,what types of food can you cook sous vide,What types of food you can cook under vide,back_translation_pivot_language_de,paraphrase
+915593,what types of food can you cook sous vide,What types of food can you cook sous vide?,ramsrigouthamg/t5_paraphraser,paraphrase
+915593,what types of food can you cook sous vide,what types of food can you cookery sous vide,WordSwapEmbedding,synonym
+915593,what types of food can you cook sous vide,what types of food can you wangle sous vide,WordSwapWordNet,synonym
+962179,when was the salvation army founded,when was the salvation arym founded,WordSwapNeighboringCharacterSwap,mispelling
+962179,when was the salvation army founded,when was the salvatlon army founded,WordSwapQWERTY,mispelling
+962179,when was the salvation army founded,when was the salAation army founded,WordSwapRandomCharacterSubstitution,mispelling
+962179,when was the salvation army founded,salvation army founded,naturality_by_removing_stop_words,naturality
+962179,when was the salvation army founded,the salvation army was founded in 18,summarization_with_t5-base,naturality
+962179,when was the salvation army founded,salvation army,summarization_with_t5-base_from_description_to_title,naturality
+962179,when was the salvation army founded,when was salvation the army founded,WordInnerSwapRandom,ordering
+962179,when was the salvation army founded,When the rescue army was established?,back_translation_pivot_language_de,paraphrase
+962179,when was the salvation army founded,When was the salvation army founded?,ramsrigouthamg/t5_paraphraser,paraphrase
+962179,when was the salvation army founded,when was the salut army founded,WordSwapEmbedding,synonym
+962179,when was the salvation army founded,when was the salvation Army founded,WordSwapWordNet,synonym

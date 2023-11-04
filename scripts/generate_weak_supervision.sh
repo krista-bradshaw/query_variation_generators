@@ -1,4 +1,4 @@
-REPO_DIR=/content/drive/MyDrive/REIT4841/query_variation_generators
+REPO_DIR=/query_variation_generators
 
 export CUDA_VISIBLE_DEVICES=0
 source ${REPO_DIR}/env/bin/activate
