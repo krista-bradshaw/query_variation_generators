@@ -18,8 +18,9 @@ def main():
         logging.basicConfig(level=logging_level, format=logging_fmt)
 
     dfs = [
-        ('antique', pd.read_csv("/home/guzpenha/personal/disentangled_information_needs/data/results/antique-train-split200-valid_weakly_supervised_variations_sample_None.csv")),
-        ('msmarco', pd.read_csv("/home/guzpenha/personal/disentangled_information_needs/data/results/msmarco-passage-trec-dl-2019-judged_weakly_supervised_variations_sample_None.csv"))
+        ('antique', pd.read_csv("/query_variation_generators/disentangled_information_needs/data/antique-train-split200-valid_weakly_supervised_variations_sample_None.csv")),
+        ('msmarco', pd.read_csv("/query_variation_generators/disentangled_information_needs/data/msmarco-passage-trec-dl-2019-judged_weakly_supervised_variations_sample_None.csv")),
+        ('typo', pd.read_csv("/query_variation_generators/disentangled_information_needs/data/dl-typo_weakly_supervised_variations_sample_None.csv"))
     ]
 
     for task, df in dfs:
@@ -42,11 +43,11 @@ def main():
         df["dataset"] = task
         df[["dataset", "q_id", "method", "transformation_type", "original_query", "variation", "valid", "follow_category"]][df["valid"].isnull()].\
             sort_values(by=["transformation_type", "method"]).\
-            to_csv("../data/results/query_variations_{}_to_label.csv".format(task), sep='\t', index=False)
+            to_csv("../data/query_variations_{}_to_label.csv".format(task), sep='\t', index=False)
 
         df[["dataset", "q_id", "method", "transformation_type", "original_query", "variation", "valid", "follow_category"]][~df["valid"].isnull()].\
             sort_values(by=["transformation_type", "method"]).\
-            to_csv("../data/results/query_variations_{}_labeled_auto.csv".format(task), sep='\t', index=False)
+            to_csv("../data/query_variations_{}_labeled_auto.csv".format(task), sep='\t', index=False)
 
         df['query_equal_variation'] = df.apply(lambda r: r['original_query'] == r['variation'], axis=1)
 

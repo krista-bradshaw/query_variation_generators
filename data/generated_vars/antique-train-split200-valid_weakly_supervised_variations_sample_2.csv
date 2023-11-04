@@ -1,0 +1,73 @@
+q_id,original_query,variation,method,transformation_type
+1158088,why my neighbor's dog doesn't bark?,a neighbor's dog doesn,summarization_with_t5-base,naturality
+1158088,why my neighbor's dog doesn't bark?,neighbor's dog barks,summarization_with_t5-base_from_description_to_title,naturality
+1158088,why my neighbor's dog doesn't bark?,Why doesn't my neighbor's dog bark?,ramsrigouthamg/t5_paraphraser,paraphrase
+1184520,"why be an ""a:theist ?",a:theist :,summarization_with_t5-base,naturality
+1184520,"why be an ""a:theist ?",a:theist,summarization_with_t5-base_from_description_to_title,naturality
+1184520,"why be an ""a:theist ?","Why should I be an ""atheist""?",ramsrigouthamg/t5_paraphraser,paraphrase
+1398838,"what does ""crunching numbers"" mean?","""crunching numbers"" means",summarization_with_t5-base,naturality
+1398838,"what does ""crunching numbers"" mean?","""crunching numbers""",summarization_with_t5-base_from_description_to_title,naturality
+1398838,"what does ""crunching numbers"" mean?","What does ""crunching numbers"" mean?",ramsrigouthamg/t5_paraphraser,paraphrase
+1485589,how sun rises?,sun rises??,summarization_with_t5-base,naturality
+1485589,how sun rises?,sun rises,summarization_with_t5-base_from_description_to_title,naturality
+1485589,how sun rises?,How does the sun rise?,ramsrigouthamg/t5_paraphraser,paraphrase
+1907320,how do i get college money?,how do i egt college money?,WordSwapNeighboringCharacterSwap,mispelling
+1907320,how do i get college money?,how do i gwt college money?,WordSwapQWERTY,mispelling
+1907320,how do i get college money?,how do i geW college money?,WordSwapRandomCharacterSubstitution,mispelling
+1907320,how do i get college money?,get college money?,naturality_by_removing_stop_words,naturality
+1907320,how do i get college money?,: how do i get,summarization_with_t5-base,naturality
+1907320,how do i get college money?,college money,summarization_with_t5-base_from_description_to_title,naturality
+1907320,how do i get college money?,do how i get college money?,WordInnerSwapRandom,ordering
+1907320,how do i get college money?,How can I get college money?,back_translation_pivot_language_de,paraphrase
+1907320,how do i get college money?,How do I get college money?,ramsrigouthamg/t5_paraphraser,paraphrase
+1907320,how do i get college money?,how do i obtain college money?,WordSwapEmbedding,synonym
+1907320,how do i get college money?,how do i bring college money?,WordSwapWordNet,synonym
+2439070,why we get irritate?,: why do we get ,summarization_with_t5-base,naturality
+2439070,why we get irritate?,irritate,summarization_with_t5-base_from_description_to_title,naturality
+2439070,why we get irritate?,Why do we get irritated?,ramsrigouthamg/t5_paraphraser,paraphrase
+2466898,how do i install led's into my car?,how do i install led',summarization_with_t5-base,naturality
+2466898,how do i install led's into my car?,led's in car,summarization_with_t5-base_from_description_to_title,naturality
+2466898,how do i install led's into my car?,How do I install led lights in my car?,ramsrigouthamg/t5_paraphraser,paraphrase
+2689609,why do people ignore global issues?,: why do people ignore global,summarization_with_t5-base,naturality
+2689609,why do people ignore global issues?,global issues,summarization_with_t5-base_from_description_to_title,naturality
+2689609,why do people ignore global issues?,Why do people ignore global issues?,ramsrigouthamg/t5_paraphraser,paraphrase
+2891885,why does everone want a horse?,everone wants a horse ,summarization_with_t5-base,naturality
+2891885,why does everone want a horse?,everone's horse,summarization_with_t5-base_from_description_to_title,naturality
+2891885,why does everone want a horse?,Why do people want a horse?,ramsrigouthamg/t5_paraphraser,paraphrase
+3083719,how do you safely wean a person off risperidal?,How do you safely wean ,summarization_with_t5-base,naturality
+3083719,how do you safely wean a person off risperidal?,risperidal we,summarization_with_t5-base_from_description_to_title,naturality
+3083719,how do you safely wean a person off risperidal?,How do you safely wean a person off risperidal?,ramsrigouthamg/t5_paraphraser,paraphrase
+348777,why would a child's psychologist recommend hospitalization to develop social skills?,why would a child's psychologist recommend hospitalization to develop socail skills?,WordSwapNeighboringCharacterSwap,mispelling
+348777,why would a child's psychologist recommend hospitalization to develop social skills?,why would a child's psychologist rrcommend hospitalization to develop social skills?,WordSwapQWERTY,mispelling
+348777,why would a child's psychologist recommend hospitalization to develop social skills?,why would a child's psychologist recommend hospitalization to revelop social skills?,WordSwapRandomCharacterSubstitution,mispelling
+348777,why would a child's psychologist recommend hospitalization to develop social skills?,would child's psychologist recommend hospitalization develop social skills?,naturality_by_removing_stop_words,naturality
+348777,why would a child's psychologist recommend hospitalization to develop social skills?,a child's psychologist would,summarization_with_t5-base,naturality
+348777,why would a child's psychologist recommend hospitalization to develop social skills?,a child's psychologist,summarization_with_t5-base_from_description_to_title,naturality
+348777,why would a child's psychologist recommend hospitalization to develop social skills?,why would psychologist child's a recommend hospitalization to develop social skills?,WordInnerSwapRandom,ordering
+348777,why would a child's psychologist recommend hospitalization to develop social skills?,Why would a child’s psychologist recommend hospitalization to develop social skills?,back_translation_pivot_language_de,paraphrase
+348777,why would a child's psychologist recommend hospitalization to develop social skills?,Why would a child's psychologist recommend hospitalization to develop social skills?,ramsrigouthamg/t5_paraphraser,paraphrase
+348777,why would a child's psychologist recommend hospitalization to develop social skills?,why would a child's psychologist recommended hospitalization to develop social skills?,WordSwapEmbedding,synonym
+348777,why would a child's psychologist recommend hospitalization to develop social skills?,why would a child's psychologist recommend hospitalization to uprise social skills?,WordSwapWordNet,synonym
+3752394,why haven't muslims protested the terrorism by radical islam like they did the cartoon jihad?,why haven't mus,summarization_with_t5-base,naturality
+3752394,why haven't muslims protested the terrorism by radical islam like they did the cartoon jihad?,radical islam protests,summarization_with_t5-base_from_description_to_title,naturality
+3752394,why haven't muslims protested the terrorism by radical islam like they did the cartoon jihad?,Why haven't Muslims protested the terrorism by radical islam like they did the cartoon jihad?,ramsrigouthamg/t5_paraphraser,paraphrase
+3884772,how about a bumper sticker thats says:?,how about a bumper sticker thats syas:?,WordSwapNeighboringCharacterSwap,mispelling
+3884772,how about a bumper sticker thats says:?,how about a bumper stickef thats says:?,WordSwapQWERTY,mispelling
+3884772,how about a bumper sticker thats says:?,how about a bumper sticker thyts says:?,WordSwapRandomCharacterSubstitution,mispelling
+3884772,how about a bumper sticker thats says:?,bumper sticker thats says:?,naturality_by_removing_stop_words,naturality
+3884772,how about a bumper sticker thats says:?,a bumper sticker that says:,summarization_with_t5-base,naturality
+3884772,how about a bumper sticker thats says:?,bumper sticker,summarization_with_t5-base_from_description_to_title,naturality
+3884772,how about a bumper sticker thats says:?,how a about bumper sticker thats says:?,WordInnerSwapRandom,ordering
+3884772,how about a bumper sticker thats says:?,How does a bumper stick look like this:,back_translation_pivot_language_de,paraphrase
+3884772,how about a bumper sticker thats says:?,How about a bumper sticker that says:?,ramsrigouthamg/t5_paraphraser,paraphrase
+3884772,how about a bumper sticker thats says:?,how about a bumper sticker dont says:?,WordSwapEmbedding,synonym
+3884772,how about a bumper sticker thats says:?,how about a bumper pricker thats says:?,WordSwapWordNet,synonym
+397709,how and what court should i take a driver who damaged my liability insurance car?,how and what court should i,summarization_with_t5-base,naturality
+397709,how and what court should i take a driver who damaged my liability insurance car?,driver who damaged my liability insurance car,summarization_with_t5-base_from_description_to_title,naturality
+397709,how and what court should i take a driver who damaged my liability insurance car?,How and what court should I take a driver who damaged my liability insurance car?,ramsrigouthamg/t5_paraphraser,paraphrase
+4042061,why do parakeets bounce up and down?,Warum do parakeet,summarization_with_t5-base,naturality
+4042061,why do parakeets bounce up and down?,parakeets bounce,summarization_with_t5-base_from_description_to_title,naturality
+4042061,why do parakeets bounce up and down?,Why do parakeets bounce up and down?,ramsrigouthamg/t5_paraphraser,paraphrase
+844617,how are dna and rna similar?,dna and r,summarization_with_t5-base,naturality
+844617,how are dna and rna similar?,dna and r,summarization_with_t5-base_from_description_to_title,naturality
+844617,how are dna and rna similar?,How are dna and rna similar?,ramsrigouthamg/t5_paraphraser,paraphrase

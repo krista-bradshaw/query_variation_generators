@@ -3,8 +3,6 @@ import pandas as pd
 from sklearn.manifold import TSNE
 import logging
 
-##UPDATE
-
 def main():
     logging_level = logging.INFO
     logging_fmt = "%(asctime)s [%(levelname)s] %(message)s"
@@ -17,29 +15,30 @@ def main():
         logging.basicConfig(level=logging_level, format=logging_fmt)
     
 
-    df = pd.read_csv("/home/guzpenha/personal/disentangled_information_needs/data/results/per_query_all_antique.csv", sep='\t')
+    df = pd.read_csv("/query_variation_generators/disentangled_information_needs/data/results/per_query_all_antique.csv", sep='\t')
 
     # task = 'antique'
+    # task = 'dl-typo
     task = 'msmarco-passage-trec-dl'
     variable = 'decrease'
     for category in df['category'].unique():
-        df = pd.read_csv("/home/guzpenha/personal/disentangled_information_needs/data/results/per_query_all_antique.csv", sep='\t')
+        df = pd.read_csv("/query_variation_generators/disentangled_information_needs/data/results/per_query_all_antique.csv", sep='\t')
         df = df[['name_x',variable,'name_y', 'dataset', 'model_category', 'qid', 'category']]
         df = df[df['category']==category]        
         pivoted_df = df[df['dataset']==task].pivot_table(variable, ['name_y', 'model_category'], ['qid', 'name_x']).reset_index()
 
         X = TSNE(n_components=2, perplexity=2).fit_transform(pivoted_df[pivoted_df.columns[2:]].values)
         df_to_plot = pivoted_df[pivoted_df.columns[0:2]].join(pd.DataFrame(X))
-        df_to_plot.to_csv("/home/guzpenha/personal/disentangled_information_needs/data/results/tsne_{}.csv".format(category))
+        df_to_plot.to_csv("/query_variation_generators/disentangled_information_needs/data/results/tsne_{}.csv".format(category))
     
-    df = pd.read_csv("/home/guzpenha/personal/disentangled_information_needs/data/results/per_query_all_antique.csv", sep='\t')
+    df = pd.read_csv("/query_variation_generators/disentangled_information_needs/data/results/per_query_all_antique.csv", sep='\t')
     df = df[['name_x',variable,'name_y', 'dataset', 'model_category', 'qid', 'category']]    
     pivoted_df = df[df['dataset']==task].pivot_table(variable, ['name_y', 'model_category'], ['qid', 'name_x']).reset_index()
 
     X = TSNE(n_components=2, perplexity=2).fit_transform(pivoted_df[pivoted_df.columns[2:]].values)
     df_to_plot = pivoted_df[pivoted_df.columns[0:2]].join(pd.DataFrame(X))
     df_to_plot['task'] = task
-    df_to_plot.to_csv("/home/guzpenha/personal/disentangled_information_needs/data/results/tsne.csv".format(category))    
+    df_to_plot.to_csv("/query_variation_generators/disentangled_information_needs/data/results/tsne.csv".format(category))    
 
     custom_dict = {'': 0, 
             'BM25' : 1, 
@@ -67,7 +66,7 @@ def main():
             'msmarco.epic.seed42.tar.gz',
             'BM25+BERT', 
             'BM25+T5',
-            ]].sort_values(by=[''], key=lambda x, c= custom_dict: x.map(c)).to_csv("/home/guzpenha/personal/disentangled_information_needs/data/results/model_corr_{}_task_{}.csv".format(category, task), sep='\t')
+            ]].sort_values(by=[''], key=lambda x, c= custom_dict: x.map(c)).to_csv("/query_variation_generators/disentangled_information_needs/data/results/model_corr_{}_task_{}.csv".format(category, task), sep='\t')
 
 if __name__ == "__main__":
     main()

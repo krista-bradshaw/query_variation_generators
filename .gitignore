@@ -1,5 +1,4 @@
 env/
-data/
 wandb
 .vscode/launch.json
 sphinx_docs/_autosummary

@@ -1,0 +1,601 @@
+dataset,q_id,method,transformation_type,original_query,variation,valid,follow_category
+DLTypo,99118,back_translation_pivot_language_de,paraphrase,alchol and drug rehab,alcohol and drug rehabilitation,TRUE,TRUE
+DLTypo,99431,back_translation_pivot_language_de,paraphrase,applying for bussiness loans,application for business loan,TRUE,TRUE
+DLTypo,99450,back_translation_pivot_language_de,paraphrase,ared hat society,ared has a society,FALSE,TRUE
+DLTypo,99478,back_translation_pivot_language_de,paraphrase,army physical fittness test,army physical fitness test,TRUE,TRUE
+DLTypo,99636,back_translation_pivot_language_de,paraphrase,azygous lobe in the lung,asygous praise in the lungs,FALSE,FALSE
+DLTypo,100382,back_translation_pivot_language_de,paraphrase,cache creek casion,cache of greek casion,TRUE,TRUE
+DLTypo,100508,back_translation_pivot_language_de,paraphrase,car accident lawers,motor accidents lawyers,TRUE,TRUE
+DLTypo,2230899496,back_translation_pivot_language_de,paraphrase,congential seizures in dogs,birth disorders in dogs,TRUE,TRUE
+DLTypo,102043,back_translation_pivot_language_de,paraphrase,drug teting in animals,drug inflammation in animals,FALSE,TRUE
+DLTypo,102400,back_translation_pivot_language_de,paraphrase,facts about chirs brown,facts about chirs brown,FALSE,FALSE
+DLTypo,102610,back_translation_pivot_language_de,paraphrase,flee market buildings,the escape market building,FALSE,TRUE
+DLTypo,103451,back_translation_pivot_language_de,paraphrase,guide to create a cover latter,guide to creating a cover in the end,FALSE,TRUE
+DLTypo,103540,back_translation_pivot_language_de,paraphrase,haravrd medical school,harvard medical school,TRUE,TRUE
+DLTypo,103941,back_translation_pivot_language_de,paraphrase,how did confusianism create order in china,how confusion created order in china,TRUE,TRUE
+DLTypo,103945,back_translation_pivot_language_de,paraphrase,how do i clean my computor monitor screen,how can i clean my computer monitor screen,TRUE,TRUE
+DLTypo,103963,back_translation_pivot_language_de,paraphrase,how far is it from san diego to tiajuana mexico,how far is it from san diego to tiajuana mexico,FALSE,FALSE
+DLTypo,103970,back_translation_pivot_language_de,paraphrase,how long does amoxicilin work for,how long does amoxicillin work,TRUE,TRUE
+DLTypo,103973,back_translation_pivot_language_de,paraphrase,how long to wait after an oral intervew,how long should you wait after an oral interview,TRUE,TRUE
+DLTypo,103983,back_translation_pivot_language_de,paraphrase,how money does the show seinfled make,how money makes the show fled,FALSE,TRUE
+DLTypo,104002,back_translation_pivot_language_de,paraphrase,how to blanch frise,how to cut frise,FALSE,TRUE
+DLTypo,104009,back_translation_pivot_language_de,paraphrase,how to clean siver,how to clean the soap,FALSE,TRUE
+DLTypo,104012,back_translation_pivot_language_de,paraphrase,how to clear bad exzema,how to remove bad exem,TRUE,TRUE
+DLTypo,104037,back_translation_pivot_language_de,paraphrase,how to get ride of dust mites,how to travel with the dustmits,FALSE,f
+DLTypo,104047,back_translation_pivot_language_de,paraphrase,how to lay basemen drain pipes,how to put basemen in pipe,FALSE,TRUE
+DLTypo,104063,back_translation_pivot_language_de,paraphrase,how to plant a graden,how to plan a degree,FALSE,f
+DLTypo,104107,back_translation_pivot_language_de,paraphrase,how to write a foral letter,how to write a foral letter,FALSE,FALSE
+DLTypo,104345,back_translation_pivot_language_de,paraphrase,information on water lilly,information about water lilly,TRUE,TRUE
+DLTypo,104867,back_translation_pivot_language_de,paraphrase,kenmore elite refridgerator,kenmore elite refrigerator,TRUE,TRUE
+DLTypo,104925,back_translation_pivot_language_de,paraphrase,kindey bun levels,kindey bun levels,FALSE,FALSE
+DLTypo,105415,back_translation_pivot_language_de,paraphrase,los angelel unified school district,los angeles united school area,TRUE,TRUE
+DLTypo,105581,back_translation_pivot_language_de,paraphrase,mab about you,mobb about you,FALSE,TRUE
+DLTypo,105826,back_translation_pivot_language_de,paraphrase,mason dixson line,mason dixon line,TRUE,TRUE
+DLTypo,105899,back_translation_pivot_language_de,paraphrase,medal taste in mouth symptoms,medal taste in the mouth symptoms,TRUE,TRUE
+DLTypo,106158,back_translation_pivot_language_de,paraphrase,mobile omes for sale,mobile omes for sale,FALSE,FALSE
+DLTypo,107625,back_translation_pivot_language_de,paraphrase,polar hear rate monitor,polar hearing rate monitor,FALSE,TRUE
+DLTypo,108039,back_translation_pivot_language_de,paraphrase,real gohst pics,true gohst pics,TRUE,TRUE
+DLTypo,108875,back_translation_pivot_language_de,paraphrase,singer axel rose,song by axel rose,TRUE,TRUE
+DLTypo,109323,back_translation_pivot_language_de,paraphrase,steelers heinz filed tickets,steelers heinz tickets,TRUE,TRUE
+DLTypo,4271677555,back_translation_pivot_language_de,paraphrase,stint for kidney stones,stint for kidney stones,FALSE,FALSE
+DLTypo,109410,back_translation_pivot_language_de,paraphrase,student loans from a banck,student loans from a bank,TRUE,TRUE
+DLTypo,109537,back_translation_pivot_language_de,paraphrase,symptoms of gential herpes,symptoms of genital herpes,TRUE,TRUE
+DLTypo,109599,back_translation_pivot_language_de,paraphrase,taning bed eye damage,taning bed eye injury,TRUE,TRUE
+DLTypo,109832,back_translation_pivot_language_de,paraphrase,the great catsby,the great catsby,FALSE,FALSE
+DLTypo,109873,back_translation_pivot_language_de,paraphrase,the miami hearld,the miami people hear,FALSE,TRUE
+DLTypo,109978,back_translation_pivot_language_de,paraphrase,things to do when broed,things to do when you broed,TRUE,TRUE
+DLTypo,110090,back_translation_pivot_language_de,paraphrase,toliet gurgles after flushing,toliet gurgles to flushing,TRUE,TRUE
+DLTypo,110271,back_translation_pivot_language_de,paraphrase,troy built tiller,troy built,FALSE,TRUE
+DLTypo,110434,back_translation_pivot_language_de,paraphrase,university of tennesse,university of tennis,FALSE,f
+DLTypo,110445,back_translation_pivot_language_de,paraphrase,untied health care,untied healthcare,TRUE,TRUE
+DLTypo,110633,back_translation_pivot_language_de,paraphrase,venitian las vegas,venice las vegas,TRUE,TRUE
+DLTypo,110843,back_translation_pivot_language_de,paraphrase,washington state goverment,washington state government,TRUE,TRUE
+DLTypo,110992,back_translation_pivot_language_de,paraphrase,what causes stomache cancer,what causes stomach cancer,TRUE,TRUE
+DLTypo,110999,back_translation_pivot_language_de,paraphrase,what does excupatory mean,what is excupatory,TRUE,TRUE
+DLTypo,111002,back_translation_pivot_language_de,paraphrase,what does the declaration of independance represent,what is the declaration of independence,TRUE,TRUE
+DLTypo,111014,back_translation_pivot_language_de,paraphrase,what is acid reflex,what is acid reflex,FALSE,FALSE
+DLTypo,1245295473,back_translation_pivot_language_de,paraphrase,what is acreis,what is acre,FALSE,TRUE
+DLTypo,111024,back_translation_pivot_language_de,paraphrase,what is hepatitus,what is hepatitis,TRUE,TRUE
+DLTypo,111026,back_translation_pivot_language_de,paraphrase,what is leader of algonquians civilization,what is the leader of the algonchian civilization,TRUE,TRUE
+DLTypo,111043,back_translation_pivot_language_de,paraphrase,what kind of medicine is zytec,what medicine is zytec,TRUE,TRUE
+DLTypo,111056,back_translation_pivot_language_de,paraphrase,what to feed tood frogs,what to eat products frogs,FALSE,TRUE
+DLTypo,99118,naturality_by_removing_stop_words,naturality,alchol and drug rehab,alchol drug rehab,TRUE,TRUE
+DLTypo,99431,naturality_by_removing_stop_words,naturality,applying for bussiness loans,applying bussiness loans,TRUE,TRUE
+DLTypo,99450,naturality_by_removing_stop_words,naturality,ared hat society,ared hat society,FALSE,FALSE
+DLTypo,99478,naturality_by_removing_stop_words,naturality,army physical fittness test,army physical fittness test,FALSE,FALSE
+DLTypo,99636,naturality_by_removing_stop_words,naturality,azygous lobe in the lung,azygous lobe lung,TRUE,TRUE
+DLTypo,100382,naturality_by_removing_stop_words,naturality,cache creek casion,cache creek casion,FALSE,FALSE
+DLTypo,100508,naturality_by_removing_stop_words,naturality,car accident lawers,car accident lawers,FALSE,FALSE
+DLTypo,2230899496,naturality_by_removing_stop_words,naturality,congential seizures in dogs,congential seizures dogs,TRUE,TRUE
+DLTypo,102043,naturality_by_removing_stop_words,naturality,drug teting in animals,drug teting animals,TRUE,TRUE
+DLTypo,102400,naturality_by_removing_stop_words,naturality,facts about chirs brown,facts chirs brown,TRUE,TRUE
+DLTypo,102610,naturality_by_removing_stop_words,naturality,flee market buildings,flee market buildings,FALSE,FALSE
+DLTypo,103451,naturality_by_removing_stop_words,naturality,guide to create a cover latter,guide create cover latter,TRUE,TRUE
+DLTypo,103540,naturality_by_removing_stop_words,naturality,haravrd medical school,haravrd medical school,FALSE,FALSE
+DLTypo,103941,naturality_by_removing_stop_words,naturality,how did confusianism create order in china,confusianism create order china,TRUE,TRUE
+DLTypo,103945,naturality_by_removing_stop_words,naturality,how do i clean my computor monitor screen,clean computor monitor screen,TRUE,TRUE
+DLTypo,103963,naturality_by_removing_stop_words,naturality,how far is it from san diego to tiajuana mexico,far san diego tiajuana mexico,TRUE,TRUE
+DLTypo,103970,naturality_by_removing_stop_words,naturality,how long does amoxicilin work for,long amoxicilin work,TRUE,TRUE
+DLTypo,103973,naturality_by_removing_stop_words,naturality,how long to wait after an oral intervew,long wait oral intervew,TRUE,TRUE
+DLTypo,103983,naturality_by_removing_stop_words,naturality,how money does the show seinfled make,money show seinfled make,TRUE,TRUE
+DLTypo,104002,naturality_by_removing_stop_words,naturality,how to blanch frise,blanch frise,TRUE,TRUE
+DLTypo,104009,naturality_by_removing_stop_words,naturality,how to clean siver,clean siver,TRUE,TRUE
+DLTypo,104012,naturality_by_removing_stop_words,naturality,how to clear bad exzema,clear bad exzema,TRUE,TRUE
+DLTypo,104037,naturality_by_removing_stop_words,naturality,how to get ride of dust mites,get ride dust mites,TRUE,TRUE
+DLTypo,104047,naturality_by_removing_stop_words,naturality,how to lay basemen drain pipes,lay basemen drain pipes,TRUE,TRUE
+DLTypo,104063,naturality_by_removing_stop_words,naturality,how to plant a graden,plant graden,TRUE,TRUE
+DLTypo,104107,naturality_by_removing_stop_words,naturality,how to write a foral letter,write foral letter,TRUE,TRUE
+DLTypo,104345,naturality_by_removing_stop_words,naturality,information on water lilly,information water lilly,TRUE,TRUE
+DLTypo,104867,naturality_by_removing_stop_words,naturality,kenmore elite refridgerator,kenmore elite refridgerator,FALSE,FALSE
+DLTypo,104925,naturality_by_removing_stop_words,naturality,kindey bun levels,kindey bun levels,FALSE,FALSE
+DLTypo,105415,naturality_by_removing_stop_words,naturality,los angelel unified school district,los angelel unified school district,FALSE,FALSE
+DLTypo,105581,naturality_by_removing_stop_words,naturality,mab about you,mab,FALSE,f
+DLTypo,105826,naturality_by_removing_stop_words,naturality,mason dixson line,mason dixson line,FALSE,FALSE
+DLTypo,105899,naturality_by_removing_stop_words,naturality,medal taste in mouth symptoms,medal taste mouth symptoms,TRUE,TRUE
+DLTypo,106158,naturality_by_removing_stop_words,naturality,mobile omes for sale,mobile omes sale,TRUE,TRUE
+DLTypo,107625,naturality_by_removing_stop_words,naturality,polar hear rate monitor,polar hear rate monitor,FALSE,FALSE
+DLTypo,108039,naturality_by_removing_stop_words,naturality,real gohst pics,real gohst pics,FALSE,FALSE
+DLTypo,108875,naturality_by_removing_stop_words,naturality,singer axel rose,singer axel rose,FALSE,FALSE
+DLTypo,109323,naturality_by_removing_stop_words,naturality,steelers heinz filed tickets,steelers heinz filed tickets,FALSE,FALSE
+DLTypo,4271677555,naturality_by_removing_stop_words,naturality,stint for kidney stones,stint kidney stones,TRUE,TRUE
+DLTypo,109410,naturality_by_removing_stop_words,naturality,student loans from a banck,student loans banck,TRUE,TRUE
+DLTypo,109537,naturality_by_removing_stop_words,naturality,symptoms of gential herpes,symptoms gential herpes,TRUE,TRUE
+DLTypo,109599,naturality_by_removing_stop_words,naturality,taning bed eye damage,taning bed eye damage,FALSE,FALSE
+DLTypo,109832,naturality_by_removing_stop_words,naturality,the great catsby,great catsby,TRUE,TRUE
+DLTypo,109873,naturality_by_removing_stop_words,naturality,the miami hearld,miami hearld,TRUE,TRUE
+DLTypo,109978,naturality_by_removing_stop_words,naturality,things to do when broed,things broed,TRUE,TRUE
+DLTypo,110090,naturality_by_removing_stop_words,naturality,toliet gurgles after flushing,toliet gurgles flushing,TRUE,TRUE
+DLTypo,110271,naturality_by_removing_stop_words,naturality,troy built tiller,troy built tiller,FALSE,FALSE
+DLTypo,110434,naturality_by_removing_stop_words,naturality,university of tennesse,university tennesse,TRUE,TRUE
+DLTypo,110445,naturality_by_removing_stop_words,naturality,untied health care,untied health care,FALSE,FALSE
+DLTypo,110633,naturality_by_removing_stop_words,naturality,venitian las vegas,venitian las vegas,FALSE,FALSE
+DLTypo,110843,naturality_by_removing_stop_words,naturality,washington state goverment,washington state goverment,FALSE,FALSE
+DLTypo,110992,naturality_by_removing_stop_words,naturality,what causes stomache cancer,causes stomache cancer,TRUE,TRUE
+DLTypo,110999,naturality_by_removing_stop_words,naturality,what does excupatory mean,excupatory mean,TRUE,TRUE
+DLTypo,111002,naturality_by_removing_stop_words,naturality,what does the declaration of independance represent,declaration independance represent,TRUE,TRUE
+DLTypo,111014,naturality_by_removing_stop_words,naturality,what is acid reflex,acid reflex,TRUE,TRUE
+DLTypo,1245295473,naturality_by_removing_stop_words,naturality,what is acreis,acreis,TRUE,TRUE
+DLTypo,111024,naturality_by_removing_stop_words,naturality,what is hepatitus,hepatitus,TRUE,TRUE
+DLTypo,111026,naturality_by_removing_stop_words,naturality,what is leader of algonquians civilization,leader algonquians civilization,TRUE,TRUE
+DLTypo,111043,naturality_by_removing_stop_words,naturality,what kind of medicine is zytec,kind medicine zytec,TRUE,TRUE
+DLTypo,111056,naturality_by_removing_stop_words,naturality,what to feed tood frogs,feed tood frogs,TRUE,TRUE
+DLTypo,99118,ramsrigouthamg/t5_paraphraser,paraphrase,alchol and drug rehab,what is the difference between alchol and drug rehab,FALSE,f
+DLTypo,99431,ramsrigouthamg/t5_paraphraser,paraphrase,applying for bussiness loans,how do i apply for a bussiness loan,TRUE,TRUE
+DLTypo,99450,ramsrigouthamg/t5_paraphraser,paraphrase,ared hat society,ared hat society,FALSE,FALSE
+DLTypo,99478,ramsrigouthamg/t5_paraphraser,paraphrase,army physical fittness test,what is the army physical fittness test,TRUE,TRUE
+DLTypo,99636,ramsrigouthamg/t5_paraphraser,paraphrase,azygous lobe in the lung,is there an azygous lobe in the lung,TRUE,TRUE
+DLTypo,100382,ramsrigouthamg/t5_paraphraser,paraphrase,cache creek casion,what is cache creek casion,TRUE,TRUE
+DLTypo,100508,ramsrigouthamg/t5_paraphraser,paraphrase,car accident lawers,what are car accident lawyers,TRUE,TRUE
+DLTypo,2230899496,ramsrigouthamg/t5_paraphraser,paraphrase,congential seizures in dogs,what causes congential seizures in dogs,TRUE,TRUE
+DLTypo,102043,ramsrigouthamg/t5_paraphraser,paraphrase,drug teting in animals,what is drug teting in animals,TRUE,TRUE
+DLTypo,102400,ramsrigouthamg/t5_paraphraser,paraphrase,facts about chirs brown,what are some interesting facts about chirs brown,TRUE,TRUE
+DLTypo,102610,ramsrigouthamg/t5_paraphraser,paraphrase,flee market buildings,what are flee market buildings,TRUE,TRUE
+DLTypo,103451,ramsrigouthamg/t5_paraphraser,paraphrase,guide to create a cover latter,how do i create a cover,FALSE,TRUE
+DLTypo,103540,ramsrigouthamg/t5_paraphraser,paraphrase,haravrd medical school,what is haravrd medical school,TRUE,TRUE
+DLTypo,103941,ramsrigouthamg/t5_paraphraser,paraphrase,how did confusianism create order in china,how did confusianism create order in china,FALSE,FALSE
+DLTypo,103945,ramsrigouthamg/t5_paraphraser,paraphrase,how do i clean my computor monitor screen,how do i clean a monitor screen,TRUE,TRUE
+DLTypo,103963,ramsrigouthamg/t5_paraphraser,paraphrase,how far is it from san diego to tiajuana mexico,how far is it from san diego to tijuana mexico,TRUE,TRUE
+DLTypo,103970,ramsrigouthamg/t5_paraphraser,paraphrase,how long does amoxicilin work for,how long does amoxicilin work,TRUE,TRUE
+DLTypo,103973,ramsrigouthamg/t5_paraphraser,paraphrase,how long to wait after an oral intervew,how long does it take to wait for an oral intervew,TRUE,TRUE
+DLTypo,103983,ramsrigouthamg/t5_paraphraser,paraphrase,how money does the show seinfled make,how much money does the show seifled make,TRUE,TRUE
+DLTypo,104002,ramsrigouthamg/t5_paraphraser,paraphrase,how to blanch frise,how do i blanch frise,TRUE,TRUE
+DLTypo,104009,ramsrigouthamg/t5_paraphraser,paraphrase,how to clean siver,how do i clean a siver,TRUE,TRUE
+DLTypo,104012,ramsrigouthamg/t5_paraphraser,paraphrase,how to clear bad exzema,how do i get rid of exzema,TRUE,TRUE
+DLTypo,104037,ramsrigouthamg/t5_paraphraser,paraphrase,how to get ride of dust mites,how do i get rid of dust mites,TRUE,TRUE
+DLTypo,104047,ramsrigouthamg/t5_paraphraser,paraphrase,how to lay basemen drain pipes,how do i lay basemen drain pipes,TRUE,TRUE
+DLTypo,104063,ramsrigouthamg/t5_paraphraser,paraphrase,how to plant a graden,how do i plant a graden,TRUE,TRUE
+DLTypo,104107,ramsrigouthamg/t5_paraphraser,paraphrase,how to write a foral letter,how do i write a foral letter,TRUE,TRUE
+DLTypo,104345,ramsrigouthamg/t5_paraphraser,paraphrase,information on water lilly,what is water lilly,TRUE,TRUE
+DLTypo,104867,ramsrigouthamg/t5_paraphraser,paraphrase,kenmore elite refridgerator,what is a kenmore elite refrigerator,TRUE,TRUE
+DLTypo,104925,ramsrigouthamg/t5_paraphraser,paraphrase,kindey bun levels,what are some of the best kindey bun levels,TRUE,TRUE
+DLTypo,105415,ramsrigouthamg/t5_paraphraser,paraphrase,los angelel unified school district,what is the los angeles unified school district,TRUE,TRUE
+DLTypo,105581,ramsrigouthamg/t5_paraphraser,paraphrase,mab about you,what is mab about you,TRUE,TRUE
+DLTypo,105826,ramsrigouthamg/t5_paraphraser,paraphrase,mason dixson line,what is a mason dixson line,TRUE,TRUE
+DLTypo,105899,ramsrigouthamg/t5_paraphraser,paraphrase,medal taste in mouth symptoms,what are the symptoms of medal taste in mouth,TRUE,TRUE
+DLTypo,106158,ramsrigouthamg/t5_paraphraser,paraphrase,mobile omes for sale,mobile omes for sale,FALSE,FALSE
+DLTypo,107625,ramsrigouthamg/t5_paraphraser,paraphrase,polar hear rate monitor,what is polar hear rate monitor,TRUE,TRUE
+DLTypo,108039,ramsrigouthamg/t5_paraphraser,paraphrase,real gohst pics,what are some real gohst pics,TRUE,TRUE
+DLTypo,108875,ramsrigouthamg/t5_paraphraser,paraphrase,singer axel rose,who is axel rose,TRUE,TRUE
+DLTypo,109323,ramsrigouthamg/t5_paraphraser,paraphrase,steelers heinz filed tickets,steelers heinz filed tickets,FALSE,FALSE
+DLTypo,4271677555,ramsrigouthamg/t5_paraphraser,paraphrase,stint for kidney stones,is there a cure for kidney stones,TRUE,TRUE
+DLTypo,109410,ramsrigouthamg/t5_paraphraser,paraphrase,student loans from a banck,how can i get a student loan from a banck,TRUE,TRUE
+DLTypo,109537,ramsrigouthamg/t5_paraphraser,paraphrase,symptoms of gential herpes,what are the symptoms of gential herpes,TRUE,TRUE
+DLTypo,109599,ramsrigouthamg/t5_paraphraser,paraphrase,taning bed eye damage,what causes taning bed eye damage,TRUE,TRUE
+DLTypo,109832,ramsrigouthamg/t5_paraphraser,paraphrase,the great catsby,what is the great catsby,TRUE,TRUE
+DLTypo,109873,ramsrigouthamg/t5_paraphraser,paraphrase,the miami hearld,what is the miami hearld,TRUE,TRUE
+DLTypo,109978,ramsrigouthamg/t5_paraphraser,paraphrase,things to do when broed,what are the things to do when broeding,FALSE,TRUE
+DLTypo,110090,ramsrigouthamg/t5_paraphraser,paraphrase,toliet gurgles after flushing,why does a toliet gurgle after flushing,TRUE,TRUE
+DLTypo,110271,ramsrigouthamg/t5_paraphraser,paraphrase,troy built tiller,what is a troy built tiller,TRUE,TRUE
+DLTypo,110434,ramsrigouthamg/t5_paraphraser,paraphrase,university of tennesse,what is the university of tennessee,TRUE,TRUE
+DLTypo,110445,ramsrigouthamg/t5_paraphraser,paraphrase,untied health care,what is untied health care,TRUE,TRUE
+DLTypo,110633,ramsrigouthamg/t5_paraphraser,paraphrase,venitian las vegas,what is venetian las vegas,TRUE,TRUE
+DLTypo,110843,ramsrigouthamg/t5_paraphraser,paraphrase,washington state goverment,what is the washington state goverment,TRUE,TRUE
+DLTypo,110992,ramsrigouthamg/t5_paraphraser,paraphrase,what causes stomache cancer,what causes stomach cancer,TRUE,TRUE
+DLTypo,110999,ramsrigouthamg/t5_paraphraser,paraphrase,what does excupatory mean,what does excupatory mean,FALSE,FALSE
+DLTypo,111002,ramsrigouthamg/t5_paraphraser,paraphrase,what does the declaration of independance represent,what does the declaration of independence represent,TRUE,TRUE
+DLTypo,111014,ramsrigouthamg/t5_paraphraser,paraphrase,what is acid reflex,what is an acid reflex,TRUE,TRUE
+DLTypo,1245295473,ramsrigouthamg/t5_paraphraser,paraphrase,what is acreis,what is an acreis,TRUE,TRUE
+DLTypo,111024,ramsrigouthamg/t5_paraphraser,paraphrase,what is hepatitus,what is hepatitis,TRUE,TRUE
+DLTypo,111026,ramsrigouthamg/t5_paraphraser,paraphrase,what is leader of algonquians civilization,who is the leader of algonquian civilization,TRUE,TRUE
+DLTypo,111043,ramsrigouthamg/t5_paraphraser,paraphrase,what kind of medicine is zytec,what is zytec,TRUE,TRUE
+DLTypo,111056,ramsrigouthamg/t5_paraphraser,paraphrase,what to feed tood frogs,how do i feed tood frogs,TRUE,TRUE
+DLTypo,99118,summarization_with_t5-base_from_description_to_title,naturality,alchol and drug rehab,alchol and drug rehab,FALSE,FALSE
+DLTypo,99431,summarization_with_t5-base_from_description_to_title,naturality,applying for bussiness loans,bussiness loans,TRUE,TRUE
+DLTypo,99450,summarization_with_t5-base_from_description_to_title,naturality,ared hat society,ared hat society,FALSE,FALSE
+DLTypo,99478,summarization_with_t5-base_from_description_to_title,naturality,army physical fittness test,army fittness test,TRUE,TRUE
+DLTypo,99636,summarization_with_t5-base_from_description_to_title,naturality,azygous lobe in the lung,lung azygous,TRUE,TRUE
+DLTypo,100382,summarization_with_t5-base_from_description_to_title,naturality,cache creek casion,cache creek casion,FALSE,FALSE
+DLTypo,100508,summarization_with_t5-base_from_description_to_title,naturality,car accident lawers,car accident lawers,FALSE,FALSE
+DLTypo,2230899496,summarization_with_t5-base_from_description_to_title,naturality,congential seizures in dogs,congential seizures in dogs,FALSE,FALSE
+DLTypo,102043,summarization_with_t5-base_from_description_to_title,naturality,drug teting in animals,drug teting animals,TRUE,FALSE
+DLTypo,102400,summarization_with_t5-base_from_description_to_title,naturality,facts about chirs brown,chirs brown,TRUE,TRUE
+DLTypo,102610,summarization_with_t5-base_from_description_to_title,naturality,flee market buildings,flee market buildings,FALSE,FALSE
+DLTypo,103451,summarization_with_t5-base_from_description_to_title,naturality,guide to create a cover latter,a cover latter,TRUE,TRUE
+DLTypo,103540,summarization_with_t5-base_from_description_to_title,naturality,haravrd medical school,medical school,TRUE,TRUE
+DLTypo,103941,summarization_with_t5-base_from_description_to_title,naturality,how did confusianism create order in china,confusianism china,TRUE,TRUE
+DLTypo,103945,summarization_with_t5-base_from_description_to_title,naturality,how do i clean my computor monitor screen,computor monitor screen clean,TRUE,TRUE
+DLTypo,103963,summarization_with_t5-base_from_description_to_title,naturality,how far is it from san diego to tiajuana mexico,tiajuana,FALSE,TRUE
+DLTypo,103970,summarization_with_t5-base_from_description_to_title,naturality,how long does amoxicilin work for,amoxicilin,TRUE,TRUE
+DLTypo,103973,summarization_with_t5-base_from_description_to_title,naturality,how long to wait after an oral intervew,oral intervew,TRUE,TRUE
+DLTypo,103983,summarization_with_t5-base_from_description_to_title,naturality,how money does the show seinfled make,seinfled money,TRUE,TRUE
+DLTypo,104002,summarization_with_t5-base_from_description_to_title,naturality,how to blanch frise,frise blanch,TRUE,TRUE
+DLTypo,104009,summarization_with_t5-base_from_description_to_title,naturality,how to clean siver,siver cleaning,TRUE,TRUE
+DLTypo,104012,summarization_with_t5-base_from_description_to_title,naturality,how to clear bad exzema,bad exzema,TRUE,TRUE
+DLTypo,104037,summarization_with_t5-base_from_description_to_title,naturality,how to get ride of dust mites,dust mites,TRUE,TRUE
+DLTypo,104047,summarization_with_t5-base_from_description_to_title,naturality,how to lay basemen drain pipes,basemen drain pipes,TRUE,TRUE
+DLTypo,104063,summarization_with_t5-base_from_description_to_title,naturality,how to plant a graden,graden plant,TRUE,TRUE
+DLTypo,104107,summarization_with_t5-base_from_description_to_title,naturality,how to write a foral letter,foral letter,TRUE,TRUE
+DLTypo,104345,summarization_with_t5-base_from_description_to_title,naturality,information on water lilly,water lilly,TRUE,TRUE
+DLTypo,104867,summarization_with_t5-base_from_description_to_title,naturality,kenmore elite refridgerator,kenmore elite refridger,FALSE,TRUE
+DLTypo,104925,summarization_with_t5-base_from_description_to_title,naturality,kindey bun levels,kindey bun levels,FALSE,FALSE
+DLTypo,105415,summarization_with_t5-base_from_description_to_title,naturality,los angelel unified school district,los angeles unified school,TRUE,TRUE
+DLTypo,105581,summarization_with_t5-base_from_description_to_title,naturality,mab about you,mab about you,FALSE,FALSE
+DLTypo,105826,summarization_with_t5-base_from_description_to_title,naturality,mason dixson line,mason dixson line,FALSE,FALSE
+DLTypo,105899,summarization_with_t5-base_from_description_to_title,naturality,medal taste in mouth symptoms,medal taste in mouth symptoms,FALSE,FALSE
+DLTypo,106158,summarization_with_t5-base_from_description_to_title,naturality,mobile omes for sale,mobile omes for sale,FALSE,FALSE
+DLTypo,107625,summarization_with_t5-base_from_description_to_title,naturality,polar hear rate monitor,hear rate monitor,TRUE,TRUE
+DLTypo,108039,summarization_with_t5-base_from_description_to_title,naturality,real gohst pics,gohst pics,TRUE,TRUE
+DLTypo,108875,summarization_with_t5-base_from_description_to_title,naturality,singer axel rose,axel rose,TRUE,TRUE
+DLTypo,109323,summarization_with_t5-base_from_description_to_title,naturality,steelers heinz filed tickets,steelers heinz tickets,TRUE,TRUE
+DLTypo,4271677555,summarization_with_t5-base_from_description_to_title,naturality,stint for kidney stones,kidney stones,TRUE,TRUE
+DLTypo,109410,summarization_with_t5-base_from_description_to_title,naturality,student loans from a banck,student loans from banck,TRUE,TRUE
+DLTypo,109537,summarization_with_t5-base_from_description_to_title,naturality,symptoms of gential herpes,gential herpes,TRUE,TRUE
+DLTypo,109599,summarization_with_t5-base_from_description_to_title,naturality,taning bed eye damage,taning eye damage,TRUE,TRUE
+DLTypo,109832,summarization_with_t5-base_from_description_to_title,naturality,the great catsby,the great catsby,FALSE,FALSE
+DLTypo,109873,summarization_with_t5-base_from_description_to_title,naturality,the miami hearld,miami hearld,TRUE,TRUE
+DLTypo,109978,summarization_with_t5-base_from_description_to_title,naturality,things to do when broed,broeding,FALSE,TRUE
+DLTypo,110090,summarization_with_t5-base_from_description_to_title,naturality,toliet gurgles after flushing,toliet gurgles,TRUE,TRUE
+DLTypo,110271,summarization_with_t5-base_from_description_to_title,naturality,troy built tiller,tiller troy built,TRUE,TRUE
+DLTypo,110434,summarization_with_t5-base_from_description_to_title,naturality,university of tennesse,university of tennesse,FALSE,FALSE
+DLTypo,110445,summarization_with_t5-base_from_description_to_title,naturality,untied health care,health care untied,TRUE,TRUE
+DLTypo,110633,summarization_with_t5-base_from_description_to_title,naturality,venitian las vegas,venitian las ve,FALSE,f
+DLTypo,110843,summarization_with_t5-base_from_description_to_title,naturality,washington state goverment,washington state government,TRUE,TRUE
+DLTypo,110992,summarization_with_t5-base_from_description_to_title,naturality,what causes stomache cancer,stomache cancer,TRUE,TRUE
+DLTypo,110999,summarization_with_t5-base_from_description_to_title,naturality,what does excupatory mean,excupatory,TRUE,TRUE
+DLTypo,111002,summarization_with_t5-base_from_description_to_title,naturality,what does the declaration of independance represent,declaration of independance,TRUE,TRUE
+DLTypo,111014,summarization_with_t5-base_from_description_to_title,naturality,what is acid reflex,acid reflex,TRUE,TRUE
+DLTypo,1245295473,summarization_with_t5-base_from_description_to_title,naturality,what is acreis,acreis,TRUE,TRUE
+DLTypo,111024,summarization_with_t5-base_from_description_to_title,naturality,what is hepatitus,hepatitis,TRUE,TRUE
+DLTypo,111026,summarization_with_t5-base_from_description_to_title,naturality,what is leader of algonquians civilization,algonquian leader,TRUE,TRUE
+DLTypo,111043,summarization_with_t5-base_from_description_to_title,naturality,what kind of medicine is zytec,zytec,TRUE,TRUE
+DLTypo,111056,summarization_with_t5-base_from_description_to_title,naturality,what to feed tood frogs,frogs,FALSE,TRUE
+DLTypo,99118,WordInnerSwapRandom,ordering,alchol and drug rehab,alchol rehab drug and,TRUE,TRUE
+DLTypo,99431,WordInnerSwapRandom,ordering,applying for bussiness loans,bussiness for applying loans,TRUE,TRUE
+DLTypo,99450,WordInnerSwapRandom,ordering,ared hat society,ared society hat,TRUE,TRUE
+DLTypo,99478,WordInnerSwapRandom,ordering,army physical fittness test,army fittness physical test,TRUE,TRUE
+DLTypo,99636,WordInnerSwapRandom,ordering,azygous lobe in the lung,lung lobe in the azygous,TRUE,TRUE
+DLTypo,100382,WordInnerSwapRandom,ordering,cache creek casion,creek cache casion,TRUE,TRUE
+DLTypo,100508,WordInnerSwapRandom,ordering,car accident lawers,accident car lawers,TRUE,TRUE
+DLTypo,2230899496,WordInnerSwapRandom,ordering,congential seizures in dogs,seizures congential in dogs,TRUE,TRUE
+DLTypo,102043,WordInnerSwapRandom,ordering,drug teting in animals,in teting drug animals,TRUE,TRUE
+DLTypo,102400,WordInnerSwapRandom,ordering,facts about chirs brown,facts chirs about brown,TRUE,TRUE
+DLTypo,102610,WordInnerSwapRandom,ordering,flee market buildings,buildings market flee,TRUE,TRUE
+DLTypo,103451,WordInnerSwapRandom,ordering,guide to create a cover latter,guide to create a latter cover,TRUE,TRUE
+DLTypo,103540,WordInnerSwapRandom,ordering,haravrd medical school,haravrd school medical,TRUE,TRUE
+DLTypo,103941,WordInnerSwapRandom,ordering,how did confusianism create order in china,how did china create order in confusianism,TRUE,TRUE
+DLTypo,103945,WordInnerSwapRandom,ordering,how do i clean my computor monitor screen,monitor do i clean my computor how screen,TRUE,TRUE
+DLTypo,103963,WordInnerSwapRandom,ordering,how far is it from san diego to tiajuana mexico,mexico far is it from san diego to tiajuana how,TRUE,TRUE
+DLTypo,103970,WordInnerSwapRandom,ordering,how long does amoxicilin work for,work long does amoxicilin how for,TRUE,TRUE
+DLTypo,103973,WordInnerSwapRandom,ordering,how long to wait after an oral intervew,how long wait to after an oral intervew,TRUE,TRUE
+DLTypo,103983,WordInnerSwapRandom,ordering,how money does the show seinfled make,show money does the how seinfled make,TRUE,TRUE
+DLTypo,104002,WordInnerSwapRandom,ordering,how to blanch frise,blanch to how frise,TRUE,TRUE
+DLTypo,104009,WordInnerSwapRandom,ordering,how to clean siver,how to siver clean,TRUE,TRUE
+DLTypo,104012,WordInnerSwapRandom,ordering,how to clear bad exzema,how to clear exzema bad,TRUE,TRUE
+DLTypo,104037,WordInnerSwapRandom,ordering,how to get ride of dust mites,how to get mites of dust ride,TRUE,TRUE
+DLTypo,104047,WordInnerSwapRandom,ordering,how to lay basemen drain pipes,how lay to basemen drain pipes,TRUE,TRUE
+DLTypo,104063,WordInnerSwapRandom,ordering,how to plant a graden,how a plant to graden,TRUE,TRUE
+DLTypo,104107,WordInnerSwapRandom,ordering,how to write a foral letter,how letter write a foral to,TRUE,TRUE
+DLTypo,104345,WordInnerSwapRandom,ordering,information on water lilly,information lilly water on,TRUE,TRUE
+DLTypo,104867,WordInnerSwapRandom,ordering,kenmore elite refridgerator,elite kenmore refridgerator,TRUE,TRUE
+DLTypo,104925,WordInnerSwapRandom,ordering,kindey bun levels,kindey levels bun,TRUE,TRUE
+DLTypo,105415,WordInnerSwapRandom,ordering,los angelel unified school district,unified angelel los school district,TRUE,TRUE
+DLTypo,105581,WordInnerSwapRandom,ordering,mab about you,mab you about,TRUE,TRUE
+DLTypo,105826,WordInnerSwapRandom,ordering,mason dixson line,dixson mason line,TRUE,TRUE
+DLTypo,105899,WordInnerSwapRandom,ordering,medal taste in mouth symptoms,medal mouth in taste symptoms,TRUE,TRUE
+DLTypo,106158,WordInnerSwapRandom,ordering,mobile omes for sale,mobile sale for omes,TRUE,TRUE
+DLTypo,107625,WordInnerSwapRandom,ordering,polar hear rate monitor,polar hear monitor rate,TRUE,TRUE
+DLTypo,108039,WordInnerSwapRandom,ordering,real gohst pics,real pics gohst,TRUE,TRUE
+DLTypo,108875,WordInnerSwapRandom,ordering,singer axel rose,rose axel singer,TRUE,TRUE
+DLTypo,109323,WordInnerSwapRandom,ordering,steelers heinz filed tickets,steelers tickets filed heinz,TRUE,TRUE
+DLTypo,4271677555,WordInnerSwapRandom,ordering,stint for kidney stones,stint for stones kidney,TRUE,TRUE
+DLTypo,109410,WordInnerSwapRandom,ordering,student loans from a banck,banck loans from a student,TRUE,TRUE
+DLTypo,109537,WordInnerSwapRandom,ordering,symptoms of gential herpes,gential of symptoms herpes,TRUE,TRUE
+DLTypo,109599,WordInnerSwapRandom,ordering,taning bed eye damage,taning eye bed damage,TRUE,TRUE
+DLTypo,109832,WordInnerSwapRandom,ordering,the great catsby,catsby great the,TRUE,TRUE
+DLTypo,109873,WordInnerSwapRandom,ordering,the miami hearld,hearld miami the,TRUE,TRUE
+DLTypo,109978,WordInnerSwapRandom,ordering,things to do when broed,things to broed when do,TRUE,TRUE
+DLTypo,110090,WordInnerSwapRandom,ordering,toliet gurgles after flushing,toliet gurgles flushing after,TRUE,TRUE
+DLTypo,110271,WordInnerSwapRandom,ordering,troy built tiller,built troy tiller,TRUE,TRUE
+DLTypo,110434,WordInnerSwapRandom,ordering,university of tennesse,tennesse of university,TRUE,TRUE
+DLTypo,110445,WordInnerSwapRandom,ordering,untied health care,health untied care,TRUE,TRUE
+DLTypo,110633,WordInnerSwapRandom,ordering,venitian las vegas,vegas las venitian,TRUE,TRUE
+DLTypo,110843,WordInnerSwapRandom,ordering,washington state goverment,goverment state washington,TRUE,TRUE
+DLTypo,110992,WordInnerSwapRandom,ordering,what causes stomache cancer,what causes cancer stomache,TRUE,TRUE
+DLTypo,110999,WordInnerSwapRandom,ordering,what does excupatory mean,does what excupatory mean,TRUE,TRUE
+DLTypo,111002,WordInnerSwapRandom,ordering,what does the declaration of independance represent,what does the declaration represent independance of,TRUE,TRUE
+DLTypo,111014,WordInnerSwapRandom,ordering,what is acid reflex,what reflex acid is,TRUE,TRUE
+DLTypo,1245295473,WordInnerSwapRandom,ordering,what is acreis,acreis is what,TRUE,TRUE
+DLTypo,111024,WordInnerSwapRandom,ordering,what is hepatitus,hepatitus is what,TRUE,TRUE
+DLTypo,111026,WordInnerSwapRandom,ordering,what is leader of algonquians civilization,is what leader of algonquians civilization,TRUE,TRUE
+DLTypo,111043,WordInnerSwapRandom,ordering,what kind of medicine is zytec,what kind medicine of is zytec,TRUE,TRUE
+DLTypo,111056,WordInnerSwapRandom,ordering,what to feed tood frogs,feed to what tood frogs,TRUE,TRUE
+DLTypo,99118,WordSwapEmbedding,synonym,alchol and drug rehab,alchol and medicine rehab,TRUE,TRUE
+DLTypo,99431,WordSwapEmbedding,synonym,applying for bussiness loans,enforcing for bussiness loans,FALSE,TRUE
+DLTypo,99450,WordSwapEmbedding,synonym,ared hat society,ared hats society,TRUE,f
+DLTypo,99478,WordSwapEmbedding,synonym,army physical fittness test,army corporal fittness test,TRUE,TRUE
+DLTypo,99636,WordSwapEmbedding,synonym,azygous lobe in the lung,azygous temporal in the lung,FALSE,TRUE
+DLTypo,100382,WordSwapEmbedding,synonym,cache creek casion,cache stream casion,TRUE,TRUE
+DLTypo,100508,WordSwapEmbedding,synonym,car accident lawers,car mishap lawers,TRUE,TRUE
+DLTypo,2230899496,WordSwapEmbedding,synonym,congential seizures in dogs,congential foreclosures in dogs,FALSE,TRUE
+DLTypo,102043,WordSwapEmbedding,synonym,drug teting in animals,medications teting in animals,TRUE,TRUE
+DLTypo,102400,WordSwapEmbedding,synonym,facts about chirs brown,facts about chirs brownish,FALSE,TRUE
+DLTypo,102610,WordSwapEmbedding,synonym,flee market buildings,flee mercado buildings,TRUE,TRUE
+DLTypo,103451,WordSwapEmbedding,synonym,guide to create a cover latter,guidebook to create a cover latter,TRUE,TRUE
+DLTypo,103540,WordSwapEmbedding,synonym,haravrd medical school,haravrd medical teaching,TRUE,TRUE
+DLTypo,103941,WordSwapEmbedding,synonym,how did confusianism create order in china,how did confusianism create order in hwa,FALSE,TRUE
+DLTypo,103945,WordSwapEmbedding,synonym,how do i clean my computor monitor screen,how do i clean my computor supervises screen,FALSE,TRUE
+DLTypo,103963,WordSwapEmbedding,synonym,how far is it from san diego to tiajuana mexico,how far is it from san diego to tiajuana mexican,TRUE,TRUE
+DLTypo,103970,WordSwapEmbedding,synonym,how long does amoxicilin work for,how long does amoxicilin collaborating for,FALSE,TRUE
+DLTypo,103973,WordSwapEmbedding,synonym,how long to wait after an oral intervew,how long to wait after an orally intervew,TRUE,TRUE
+DLTypo,103983,WordSwapEmbedding,synonym,how money does the show seinfled make,how money does the shows seinfled make,TRUE,TRUE
+DLTypo,104002,WordSwapEmbedding,synonym,how to blanch frise,how to blanche frise,TRUE,TRUE
+DLTypo,104009,WordSwapEmbedding,synonym,how to clean siver,how to pur siver,FALSE,TRUE
+DLTypo,104012,WordSwapEmbedding,synonym,how to clear bad exzema,how to clear naughty exzema,TRUE,TRUE
+DLTypo,104037,WordSwapEmbedding,synonym,how to get ride of dust mites,how to obtains ride of dust mites,FALSE,TRUE
+DLTypo,104047,WordSwapEmbedding,synonym,how to lay basemen drain pipes,how to lay basemen drain pipelines,TRUE,TRUE
+DLTypo,104063,WordSwapEmbedding,synonym,how to plant a graden,how to installations a graden,TRUE,TRUE
+DLTypo,104107,WordSwapEmbedding,synonym,how to write a foral letter,how to handwriting a foral letter,TRUE,TRUE
+DLTypo,104345,WordSwapEmbedding,synonym,information on water lilly,info on water lilly,TRUE,TRUE
+DLTypo,104867,WordSwapEmbedding,synonym,kenmore elite refridgerator,kenmore elitist refridgerator,TRUE,TRUE
+DLTypo,104925,WordSwapEmbedding,synonym,kindey bun levels,kindey bun tiers,TRUE,TRUE
+DLTypo,105415,WordSwapEmbedding,synonym,los angelel unified school district,los angelel unified school districts,TRUE,TRUE
+DLTypo,105581,WordSwapEmbedding,synonym,mab about you,mab about you,FALSE,FALSE
+DLTypo,105826,WordSwapEmbedding,synonym,mason dixson line,masson dixson line,TRUE,FALSE
+DLTypo,105899,WordSwapEmbedding,synonym,medal taste in mouth symptoms,ornaments taste in mouth symptoms,FALSE,TRUE
+DLTypo,106158,WordSwapEmbedding,synonym,mobile omes for sale,mobiles omes for sale,TRUE,TRUE
+DLTypo,107625,WordSwapEmbedding,synonym,polar hear rate monitor,polar hear rate monitored,TRUE,TRUE
+DLTypo,108039,WordSwapEmbedding,synonym,real gohst pics,authentic gohst pics,TRUE,TRUE
+DLTypo,108875,WordSwapEmbedding,synonym,singer axel rose,singer axel soars,FALSE,TRUE
+DLTypo,109323,WordSwapEmbedding,synonym,steelers heinz filed tickets,texans heinz filed tickets,FALSE,TRUE
+DLTypo,4271677555,WordSwapEmbedding,synonym,stint for kidney stones,stint for dialysis stones,TRUE,TRUE
+DLTypo,109410,WordSwapEmbedding,synonym,student loans from a banck,student borrowing from a banck,TRUE,TRUE
+DLTypo,109537,WordSwapEmbedding,synonym,symptoms of gential herpes,symptom of gential herpes,TRUE,TRUE
+DLTypo,109599,WordSwapEmbedding,synonym,taning bed eye damage,taning bedside eye damage,TRUE,TRUE
+DLTypo,109832,WordSwapEmbedding,synonym,the great catsby,the whopping catsby,FALSE,TRUE
+DLTypo,109873,WordSwapEmbedding,synonym,the miami hearld,the miami hearld,FALSE,FALSE
+DLTypo,109978,WordSwapEmbedding,synonym,things to do when broed,matters to do when broed,TRUE,TRUE
+DLTypo,110090,WordSwapEmbedding,synonym,toliet gurgles after flushing,toliet gurgles after rinse,FALSE,TRUE
+DLTypo,110271,WordSwapEmbedding,synonym,troy built tiller,trojans built tiller,FALSE,TRUE
+DLTypo,110434,WordSwapEmbedding,synonym,university of tennesse,academia of tennesse,TRUE,TRUE
+DLTypo,110445,WordSwapEmbedding,synonym,untied health care,untied healthcare care,TRUE,TRUE
+DLTypo,110633,WordSwapEmbedding,synonym,venitian las vegas,venitian la vegas,TRUE,FALSE
+DLTypo,110843,WordSwapEmbedding,synonym,washington state goverment,washington state governmental,TRUE,TRUE
+DLTypo,110992,WordSwapEmbedding,synonym,what causes stomache cancer,what causes stomache tumors,TRUE,TRUE
+DLTypo,110999,WordSwapEmbedding,synonym,what does excupatory mean,what does excupatory imply,TRUE,TRUE
+DLTypo,111002,WordSwapEmbedding,synonym,what does the declaration of independance represent,what does the declaration of independance representing,TRUE,TRUE
+DLTypo,111014,WordSwapEmbedding,synonym,what is acid reflex,what is acid reflexes,TRUE,TRUE
+DLTypo,1245295473,WordSwapEmbedding,synonym,what is acreis,what is acreis,FALSE,FALSE
+DLTypo,111024,WordSwapEmbedding,synonym,what is hepatitus,what is hepatitus,FALSE,FALSE
+DLTypo,111026,WordSwapEmbedding,synonym,what is leader of algonquians civilization,what is ringleader of algonquians civilization,TRUE,TRUE
+DLTypo,111043,WordSwapEmbedding,synonym,what kind of medicine is zytec,what kind of medicines is zytec,TRUE,TRUE
+DLTypo,111056,WordSwapEmbedding,synonym,what to feed tood frogs,what to feed tood toads,TRUE,TRUE
+DLTypo,99118,WordSwapNeighboringCharacterSwap,mispelling,alchol and drug rehab,alchol and drug erhab,TRUE,TRUE
+DLTypo,99431,WordSwapNeighboringCharacterSwap,mispelling,applying for bussiness loans,applying for bussiness lonas,TRUE,TRUE
+DLTypo,99450,WordSwapNeighboringCharacterSwap,mispelling,ared hat society,aerd hat society,TRUE,TRUE
+DLTypo,99478,WordSwapNeighboringCharacterSwap,mispelling,army physical fittness test,arym physical fittness test,TRUE,TRUE
+DLTypo,99636,WordSwapNeighboringCharacterSwap,mispelling,azygous lobe in the lung,azyguos lobe in the lung,TRUE,TRUE
+DLTypo,100382,WordSwapNeighboringCharacterSwap,mispelling,cache creek casion,cache creek csaion,TRUE,TRUE
+DLTypo,100508,WordSwapNeighboringCharacterSwap,mispelling,car accident lawers,car accident lwaers,TRUE,TRUE
+DLTypo,2230899496,WordSwapNeighboringCharacterSwap,mispelling,congential seizures in dogs,conegntial seizures in dogs,TRUE,TRUE
+DLTypo,102043,WordSwapNeighboringCharacterSwap,mispelling,drug teting in animals,drug teting in animlas,TRUE,TRUE
+DLTypo,102400,WordSwapNeighboringCharacterSwap,mispelling,facts about chirs brown,facts about chirs borwn,TRUE,TRUE
+DLTypo,102610,WordSwapNeighboringCharacterSwap,mispelling,flee market buildings,flee market buildnigs,TRUE,TRUE
+DLTypo,103451,WordSwapNeighboringCharacterSwap,mispelling,guide to create a cover latter,guide to create a cover altter,TRUE,TRUE
+DLTypo,103540,WordSwapNeighboringCharacterSwap,mispelling,haravrd medical school,ahravrd medical school,TRUE,TRUE
+DLTypo,103941,WordSwapNeighboringCharacterSwap,mispelling,how did confusianism create order in china,how did conufsianism create order in china,TRUE,TRUE
+DLTypo,103945,WordSwapNeighboringCharacterSwap,mispelling,how do i clean my computor monitor screen,how do i clean my computor monitor sceren,TRUE,TRUE
+DLTypo,103963,WordSwapNeighboringCharacterSwap,mispelling,how far is it from san diego to tiajuana mexico,how far is it from san diego to tiaujana mexico,TRUE,TRUE
+DLTypo,103970,WordSwapNeighboringCharacterSwap,mispelling,how long does amoxicilin work for,how long does amoxicilin owrk for,TRUE,TRUE
+DLTypo,103973,WordSwapNeighboringCharacterSwap,mispelling,how long to wait after an oral intervew,how long to awit after an oral intervew,TRUE,TRUE
+DLTypo,103983,WordSwapNeighboringCharacterSwap,mispelling,how money does the show seinfled make,how money does the show seifnled make,TRUE,TRUE
+DLTypo,104002,WordSwapNeighboringCharacterSwap,mispelling,how to blanch frise,how to blanch fries,TRUE,TRUE
+DLTypo,104009,WordSwapNeighboringCharacterSwap,mispelling,how to clean siver,how to clean isver,TRUE,TRUE
+DLTypo,104012,WordSwapNeighboringCharacterSwap,mispelling,how to clear bad exzema,how to clear bda exzema,TRUE,TRUE
+DLTypo,104037,WordSwapNeighboringCharacterSwap,mispelling,how to get ride of dust mites,how to gte ride of dust mites,TRUE,TRUE
+DLTypo,104047,WordSwapNeighboringCharacterSwap,mispelling,how to lay basemen drain pipes,how to lay basemen drain ppies,TRUE,TRUE
+DLTypo,104063,WordSwapNeighboringCharacterSwap,mispelling,how to plant a graden,how to palnt a graden,TRUE,TRUE
+DLTypo,104107,WordSwapNeighboringCharacterSwap,mispelling,how to write a foral letter,how to rwite a foral letter,TRUE,TRUE
+DLTypo,104345,WordSwapNeighboringCharacterSwap,mispelling,information on water lilly,information on waetr lilly,TRUE,TRUE
+DLTypo,104867,WordSwapNeighboringCharacterSwap,mispelling,kenmore elite refridgerator,kenmoer elite refridgerator,TRUE,TRUE
+DLTypo,104925,WordSwapNeighboringCharacterSwap,mispelling,kindey bun levels,kindey ubn levels,TRUE,TRUE
+DLTypo,105415,WordSwapNeighboringCharacterSwap,mispelling,los angelel unified school district,los angelel unified school disrtict,TRUE,TRUE
+DLTypo,105581,WordSwapNeighboringCharacterSwap,mispelling,mab about you,amb about you,TRUE,TRUE
+DLTypo,105826,WordSwapNeighboringCharacterSwap,mispelling,mason dixson line,mason idxson line,TRUE,TRUE
+DLTypo,105899,WordSwapNeighboringCharacterSwap,mispelling,medal taste in mouth symptoms,medal taste in mouth symtpoms,TRUE,TRUE
+DLTypo,106158,WordSwapNeighboringCharacterSwap,mispelling,mobile omes for sale,ombile omes for sale,TRUE,TRUE
+DLTypo,107625,WordSwapNeighboringCharacterSwap,mispelling,polar hear rate monitor,polar hear rate mnoitor,TRUE,TRUE
+DLTypo,108039,WordSwapNeighboringCharacterSwap,mispelling,real gohst pics,real gohst pcis,TRUE,TRUE
+DLTypo,108875,WordSwapNeighboringCharacterSwap,mispelling,singer axel rose,singer axel orse,TRUE,TRUE
+DLTypo,109323,WordSwapNeighboringCharacterSwap,mispelling,steelers heinz filed tickets,steelers ehinz filed tickets,TRUE,TRUE
+DLTypo,4271677555,WordSwapNeighboringCharacterSwap,mispelling,stint for kidney stones,stint for ikdney stones,TRUE,TRUE
+DLTypo,109410,WordSwapNeighboringCharacterSwap,mispelling,student loans from a banck,sutdent loans from a banck,TRUE,TRUE
+DLTypo,109537,WordSwapNeighboringCharacterSwap,mispelling,symptoms of gential herpes,symptoms of gentila herpes,TRUE,TRUE
+DLTypo,109599,WordSwapNeighboringCharacterSwap,mispelling,taning bed eye damage,taning bed eey damage,TRUE,TRUE
+DLTypo,109832,WordSwapNeighboringCharacterSwap,mispelling,the great catsby,the rgeat catsby,TRUE,TRUE
+DLTypo,109873,WordSwapNeighboringCharacterSwap,mispelling,the miami hearld,the mimai hearld,TRUE,TRUE
+DLTypo,109978,WordSwapNeighboringCharacterSwap,mispelling,things to do when broed,things to do when rboed,TRUE,TRUE
+DLTypo,110090,WordSwapNeighboringCharacterSwap,mispelling,toliet gurgles after flushing,tloiet gurgles after flushing,TRUE,TRUE
+DLTypo,110271,WordSwapNeighboringCharacterSwap,mispelling,troy built tiller,troy bulit tiller,TRUE,TRUE
+DLTypo,110434,WordSwapNeighboringCharacterSwap,mispelling,university of tennesse,unviersity of tennesse,TRUE,TRUE
+DLTypo,110445,WordSwapNeighboringCharacterSwap,mispelling,untied health care,untied health crae,TRUE,TRUE
+DLTypo,110633,WordSwapNeighboringCharacterSwap,mispelling,venitian las vegas,venitian las vgeas,TRUE,TRUE
+DLTypo,110843,WordSwapNeighboringCharacterSwap,mispelling,washington state goverment,wsahington state goverment,TRUE,TRUE
+DLTypo,110992,WordSwapNeighboringCharacterSwap,mispelling,what causes stomache cancer,what causse stomache cancer,TRUE,TRUE
+DLTypo,110999,WordSwapNeighboringCharacterSwap,mispelling,what does excupatory mean,what does excupatory eman,TRUE,TRUE
+DLTypo,111002,WordSwapNeighboringCharacterSwap,mispelling,what does the declaration of independance represent,what does the declaration of independance repreesnt,TRUE,TRUE
+DLTypo,111014,WordSwapNeighboringCharacterSwap,mispelling,what is acid reflex,what is caid reflex,TRUE,TRUE
+DLTypo,1245295473,WordSwapNeighboringCharacterSwap,mispelling,what is acreis,what is acresi,TRUE,TRUE
+DLTypo,111024,WordSwapNeighboringCharacterSwap,mispelling,what is hepatitus,what is hpeatitus,TRUE,TRUE
+DLTypo,111026,WordSwapNeighboringCharacterSwap,mispelling,what is leader of algonquians civilization,what is laeder of algonquians civilization,TRUE,TRUE
+DLTypo,111043,WordSwapNeighboringCharacterSwap,mispelling,what kind of medicine is zytec,what kind of medicine is zytce,TRUE,TRUE
+DLTypo,111056,WordSwapNeighboringCharacterSwap,mispelling,what to feed tood frogs,what to efed tood frogs,TRUE,TRUE
+DLTypo,99118,WordSwapQWERTY,mispelling,alchol and drug rehab,alchol and drug reuab,TRUE,TRUE
+DLTypo,99431,WordSwapQWERTY,mispelling,applying for bussiness loans,applying for busslness loans,TRUE,TRUE
+DLTypo,99450,WordSwapQWERTY,mispelling,ared hat society,zred hat society,TRUE,TRUE
+DLTypo,99478,WordSwapQWERTY,mispelling,army physical fittness test,army physical fittnrss test,TRUE,TRUE
+DLTypo,99636,WordSwapQWERTY,mispelling,azygous lobe in the lung,azygous oobe in the lung,TRUE,TRUE
+DLTypo,100382,WordSwapQWERTY,mispelling,cache creek casion,cache crfek casion,TRUE,TRUE
+DLTypo,100508,WordSwapQWERTY,mispelling,car accident lawers,dar accident lawers,TRUE,TRUE
+DLTypo,2230899496,WordSwapQWERTY,mispelling,congential seizures in dogs,congential seizurds in dogs,TRUE,TRUE
+DLTypo,102043,WordSwapQWERTY,mispelling,drug teting in animals,drug teting in animaps,TRUE,TRUE
+DLTypo,102400,WordSwapQWERTY,mispelling,facts about chirs brown,facts about chies brown,TRUE,TRUE
+DLTypo,102610,WordSwapQWERTY,mispelling,flee market buildings,flee marlet buildings,TRUE,TRUE
+DLTypo,103451,WordSwapQWERTY,mispelling,guide to create a cover latter,guide to crdate a cover latter,TRUE,TRUE
+DLTypo,103540,WordSwapQWERTY,mispelling,haravrd medical school,haravrd medlcal school,TRUE,TRUE
+DLTypo,103941,WordSwapQWERTY,mispelling,how did confusianism create order in china,how did confusixnism create order in china,TRUE,TRUE
+DLTypo,103945,WordSwapQWERTY,mispelling,how do i clean my computor monitor screen,how do i clean my compktor monitor screen,TRUE,TRUE
+DLTypo,103963,WordSwapQWERTY,mispelling,how far is it from san diego to tiajuana mexico,how far is it from san diego to tiajuana kexico,TRUE,TRUE
+DLTypo,103970,WordSwapQWERTY,mispelling,how long does amoxicilin work for,how long does amoxiculin work for,TRUE,TRUE
+DLTypo,103973,WordSwapQWERTY,mispelling,how long to wait after an oral intervew,how lonr to wait after an oral intervew,TRUE,TRUE
+DLTypo,103983,WordSwapQWERTY,mispelling,how money does the show seinfled make,how money does the show seinfled nake,TRUE,TRUE
+DLTypo,104002,WordSwapQWERTY,mispelling,how to blanch frise,how to blanch frisw,TRUE,TRUE
+DLTypo,104009,WordSwapQWERTY,mispelling,how to clean siver,how to clean slver,TRUE,TRUE
+DLTypo,104012,WordSwapQWERTY,mispelling,how to clear bad exzema,how to cleaf bad exzema,TRUE,TRUE
+DLTypo,104037,WordSwapQWERTY,mispelling,how to get ride of dust mites,how to get ride of dust mitea,TRUE,TRUE
+DLTypo,104047,WordSwapQWERTY,mispelling,how to lay basemen drain pipes,how to lay bqsemen drain pipes,TRUE,TRUE
+DLTypo,104063,WordSwapQWERTY,mispelling,how to plant a graden,how to plwnt a graden,TRUE,TRUE
+DLTypo,104107,WordSwapQWERTY,mispelling,how to write a foral letter,how to write a forak letter,TRUE,TRUE
+DLTypo,104345,WordSwapQWERTY,mispelling,information on water lilly,infotmation on water lilly,TRUE,TRUE
+DLTypo,104867,WordSwapQWERTY,mispelling,kenmore elite refridgerator,ksnmore elite refridgerator,TRUE,TRUE
+DLTypo,104925,WordSwapQWERTY,mispelling,kindey bun levels,kindey buh levels,TRUE,TRUE
+DLTypo,105415,WordSwapQWERTY,mispelling,los angelel unified school district,lps angelel unified school district,TRUE,TRUE
+DLTypo,105581,WordSwapQWERTY,mispelling,mab about you,jab about you,TRUE,TRUE
+DLTypo,105826,WordSwapQWERTY,mispelling,mason dixson line,mason dixqon line,TRUE,TRUE
+DLTypo,105899,WordSwapQWERTY,mispelling,medal taste in mouth symptoms,medal taste in mouth symptojs,TRUE,TRUE
+DLTypo,106158,WordSwapQWERTY,mispelling,mobile omes for sale,mobile omfs for sale,TRUE,TRUE
+DLTypo,107625,WordSwapQWERTY,mispelling,polar hear rate monitor,polar hear rate monitot,TRUE,TRUE
+DLTypo,108039,WordSwapQWERTY,mispelling,real gohst pics,resl gohst pics,TRUE,TRUE
+DLTypo,108875,WordSwapQWERTY,mispelling,singer axel rose,singer axel rosd,TRUE,TRUE
+DLTypo,109323,WordSwapQWERTY,mispelling,steelers heinz filed tickets,steeldrs heinz filed tickets,TRUE,TRUE
+DLTypo,4271677555,WordSwapQWERTY,mispelling,stint for kidney stones,stint for kidney stoneq,TRUE,TRUE
+DLTypo,109410,WordSwapQWERTY,mispelling,student loans from a banck,student loabs from a banck,TRUE,TRUE
+DLTypo,109537,WordSwapQWERTY,mispelling,symptoms of gential herpes,symptoms of gential hegpes,TRUE,TRUE
+DLTypo,109599,WordSwapQWERTY,mispelling,taning bed eye damage,taning brd eye damage,TRUE,TRUE
+DLTypo,109832,WordSwapQWERTY,mispelling,the great catsby,the great catsbj,TRUE,TRUE
+DLTypo,109873,WordSwapQWERTY,mispelling,the miami hearld,the miami hearlf,TRUE,TRUE
+DLTypo,109978,WordSwapQWERTY,mispelling,things to do when broed,things to do when brodd,TRUE,TRUE
+DLTypo,110090,WordSwapQWERTY,mispelling,toliet gurgles after flushing,toliey gurgles after flushing,TRUE,TRUE
+DLTypo,110271,WordSwapQWERTY,mispelling,troy built tiller,froy built tiller,TRUE,TRUE
+DLTypo,110434,WordSwapQWERTY,mispelling,university of tennesse,universiyy of tennesse,TRUE,TRUE
+DLTypo,110445,WordSwapQWERTY,mispelling,untied health care,untied health caee,TRUE,TRUE
+DLTypo,110633,WordSwapQWERTY,mispelling,venitian las vegas,venitian las vedas,TRUE,TRUE
+DLTypo,110843,WordSwapQWERTY,mispelling,washington state goverment,washington stahe goverment,TRUE,TRUE
+DLTypo,110992,WordSwapQWERTY,mispelling,what causes stomache cancer,what causes stomache csncer,TRUE,TRUE
+DLTypo,110999,WordSwapQWERTY,mispelling,what does excupatory mean,what does excupatory mesn,TRUE,TRUE
+DLTypo,111002,WordSwapQWERTY,mispelling,what does the declaration of independance represent,what does the declaration of independance reprssent,TRUE,TRUE
+DLTypo,111014,WordSwapQWERTY,mispelling,what is acid reflex,what is ackd reflex,TRUE,TRUE
+DLTypo,1245295473,WordSwapQWERTY,mispelling,what is acreis,what is wcreis,TRUE,TRUE
+DLTypo,111024,WordSwapQWERTY,mispelling,what is hepatitus,what is heoatitus,TRUE,TRUE
+DLTypo,111026,WordSwapQWERTY,mispelling,what is leader of algonquians civilization,what is leader of algonquians civklization,TRUE,TRUE
+DLTypo,111043,WordSwapQWERTY,mispelling,what kind of medicine is zytec,what kind of mddicine is zytec,TRUE,TRUE
+DLTypo,111056,WordSwapQWERTY,mispelling,what to feed tood frogs,what to feed tood fgogs,TRUE,TRUE
+DLTypo,99118,WordSwapRandomCharacterSubstitution,mispelling,alchol and drug rehab,alchop and drug rehab,TRUE,TRUE
+DLTypo,99431,WordSwapRandomCharacterSubstitution,mispelling,applying for bussiness loans,ajplying for bussiness loans,TRUE,TRUE
+DLTypo,99450,WordSwapRandomCharacterSubstitution,mispelling,ared hat society,aled hat society,TRUE,TRUE
+DLTypo,99478,WordSwapRandomCharacterSubstitution,mispelling,army physical fittness test,army physical fittness tlst,TRUE,TRUE
+DLTypo,99636,WordSwapRandomCharacterSubstitution,mispelling,azygous lobe in the lung,azygous lobe in the sung,TRUE,TRUE
+DLTypo,100382,WordSwapRandomCharacterSubstitution,mispelling,cache creek casion,cache areek casion,TRUE,TRUE
+DLTypo,100508,WordSwapRandomCharacterSubstitution,mispelling,car accident lawers,car accideny lawers,TRUE,TRUE
+DLTypo,2230899496,WordSwapRandomCharacterSubstitution,mispelling,congential seizures in dogs,fongential seizures in dogs,TRUE,TRUE
+DLTypo,102043,WordSwapRandomCharacterSubstitution,mispelling,drug teting in animals,drug teting in antmals,TRUE,TRUE
+DLTypo,102400,WordSwapRandomCharacterSubstitution,mispelling,facts about chirs brown,pacts about chirs brown,TRUE,TRUE
+DLTypo,102610,WordSwapRandomCharacterSubstitution,mispelling,flee market buildings,flee merket buildings,TRUE,TRUE
+DLTypo,103451,WordSwapRandomCharacterSubstitution,mispelling,guide to create a cover latter,guide to create a cover latber,TRUE,TRUE
+DLTypo,103540,WordSwapRandomCharacterSubstitution,mispelling,haravrd medical school,haravrd medicah school,TRUE,TRUE
+DLTypo,103941,WordSwapRandomCharacterSubstitution,mispelling,how did confusianism create order in china,how did confusianism yreate order in china,TRUE,TRUE
+DLTypo,103945,WordSwapRandomCharacterSubstitution,mispelling,how do i clean my computor monitor screen,how do i cleas my computor monitor screen,TRUE,TRUE
+DLTypo,103963,WordSwapRandomCharacterSubstitution,mispelling,how far is it from san diego to tiajuana mexico,how far is it from san diego to tiajuana mehico,TRUE,TRUE
+DLTypo,103970,WordSwapRandomCharacterSubstitution,mispelling,how long does amoxicilin work for,how long does amoxicilin wvrk for,TRUE,TRUE
+DLTypo,103973,WordSwapRandomCharacterSubstitution,mispelling,how long to wait after an oral intervew,how long to wpit after an oral intervew,TRUE,TRUE
+DLTypo,103983,WordSwapRandomCharacterSubstitution,mispelling,how money does the show seinfled make,how money does the sqow seinfled make,TRUE,TRUE
+DLTypo,104002,WordSwapRandomCharacterSubstitution,mispelling,how to blanch frise,how to blanch fiise,TRUE,TRUE
+DLTypo,104009,WordSwapRandomCharacterSubstitution,mispelling,how to clean siver,how to clead siver,TRUE,TRUE
+DLTypo,104012,WordSwapRandomCharacterSubstitution,mispelling,how to clear bad exzema,how to clear gad exzema,TRUE,TRUE
+DLTypo,104037,WordSwapRandomCharacterSubstitution,mispelling,how to get ride of dust mites,how to get ride of dusu mites,TRUE,TRUE
+DLTypo,104047,WordSwapRandomCharacterSubstitution,mispelling,how to lay basemen drain pipes,how to lay casemen drain pipes,TRUE,TRUE
+DLTypo,104063,WordSwapRandomCharacterSubstitution,mispelling,how to plant a graden,how to plait a graden,TRUE,TRUE
+DLTypo,104107,WordSwapRandomCharacterSubstitution,mispelling,how to write a foral letter,how to wrgte a foral letter,TRUE,TRUE
+DLTypo,104345,WordSwapRandomCharacterSubstitution,mispelling,information on water lilly,information on waper lilly,TRUE,TRUE
+DLTypo,104867,WordSwapRandomCharacterSubstitution,mispelling,kenmore elite refridgerator,kenmore elite refridgerator,FALSE,FALSE
+DLTypo,104925,WordSwapRandomCharacterSubstitution,mispelling,kindey bun levels,kindey bub levels,TRUE,TRUE
+DLTypo,105415,WordSwapRandomCharacterSubstitution,mispelling,los angelel unified school district,los angelel unified school distribt,TRUE,TRUE
+DLTypo,105581,WordSwapRandomCharacterSubstitution,mispelling,mab about you,mai about you,TRUE,TRUE
+DLTypo,105826,WordSwapRandomCharacterSubstitution,mispelling,mason dixson line,macon dixson line,TRUE,TRUE
+DLTypo,105899,WordSwapRandomCharacterSubstitution,mispelling,medal taste in mouth symptoms,medal taste in louth symptoms,TRUE,TRUE
+DLTypo,106158,WordSwapRandomCharacterSubstitution,mispelling,mobile omes for sale,mobile omas for sale,TRUE,TRUE
+DLTypo,107625,WordSwapRandomCharacterSubstitution,mispelling,polar hear rate monitor,polar hear rate bonitor,TRUE,TRUE
+DLTypo,108039,WordSwapRandomCharacterSubstitution,mispelling,real gohst pics,real gohst bics,TRUE,TRUE
+DLTypo,108875,WordSwapRandomCharacterSubstitution,mispelling,singer axel rose,singer axel rome,TRUE,TRUE
+DLTypo,109323,WordSwapRandomCharacterSubstitution,mispelling,steelers heinz filed tickets,steelers heinz fiwed tickets,TRUE,TRUE
+DLTypo,4271677555,WordSwapRandomCharacterSubstitution,mispelling,stint for kidney stones,stint for kidney stonbs,TRUE,TRUE
+DLTypo,109410,WordSwapRandomCharacterSubstitution,mispelling,student loans from a banck,student loans from a bancd,TRUE,TRUE
+DLTypo,109537,WordSwapRandomCharacterSubstitution,mispelling,symptoms of gential herpes,uymptoms of gential herpes,TRUE,TRUE
+DLTypo,109599,WordSwapRandomCharacterSubstitution,mispelling,taning bed eye damage,toning bed eye damage,TRUE,TRUE
+DLTypo,109832,WordSwapRandomCharacterSubstitution,mispelling,the great catsby,the great cagsby,TRUE,TRUE
+DLTypo,109873,WordSwapRandomCharacterSubstitution,mispelling,the miami hearld,the miami hearla,TRUE,TRUE
+DLTypo,109978,WordSwapRandomCharacterSubstitution,mispelling,things to do when broed,things to do when brved,TRUE,TRUE
+DLTypo,110090,WordSwapRandomCharacterSubstitution,mispelling,toliet gurgles after flushing,uoliet gurgles after flushing,TRUE,TRUE
+DLTypo,110271,WordSwapRandomCharacterSubstitution,mispelling,troy built tiller,trot built tiller,TRUE,TRUE
+DLTypo,110434,WordSwapRandomCharacterSubstitution,mispelling,university of tennesse,university of tennesfe,TRUE,TRUE
+DLTypo,110445,WordSwapRandomCharacterSubstitution,mispelling,untied health care,untied health cary,TRUE,TRUE
+DLTypo,110633,WordSwapRandomCharacterSubstitution,mispelling,venitian las vegas,venitian las vegls,TRUE,TRUE
+DLTypo,110843,WordSwapRandomCharacterSubstitution,mispelling,washington state goverment,washington state glverment,TRUE,TRUE
+DLTypo,110992,WordSwapRandomCharacterSubstitution,mispelling,what causes stomache cancer,what causes stomache sancer,TRUE,TRUE
+DLTypo,110999,WordSwapRandomCharacterSubstitution,mispelling,what does excupatory mean,what does excupatory meac,TRUE,TRUE
+DLTypo,111002,WordSwapRandomCharacterSubstitution,mispelling,what does the declaration of independance represent,what does the declaration of independance represant,TRUE,TRUE
+DLTypo,111014,WordSwapRandomCharacterSubstitution,mispelling,what is acid reflex,what is acid reflnx,TRUE,TRUE
+DLTypo,1245295473,WordSwapRandomCharacterSubstitution,mispelling,what is acreis,what is acjeis,TRUE,TRUE
+DLTypo,111024,WordSwapRandomCharacterSubstitution,mispelling,what is hepatitus,what is pepatitus,TRUE,TRUE
+DLTypo,111026,WordSwapRandomCharacterSubstitution,mispelling,what is leader of algonquians civilization,what is leader of algonquians civilizatiox,TRUE,TRUE
+DLTypo,111043,WordSwapRandomCharacterSubstitution,mispelling,what kind of medicine is zytec,what kind of mediciee is zytec,TRUE,TRUE
+DLTypo,111056,WordSwapRandomCharacterSubstitution,mispelling,what to feed tood frogs,what to fwed tood frogs,TRUE,TRUE
+DLTypo,99118,WordSwapWordNet,synonym,alchol and drug rehab,alchol and dose rehab,FALSE,TRUE
+DLTypo,99431,WordSwapWordNet,synonym,applying for bussiness loans,applying for bussiness lend,TRUE,TRUE
+DLTypo,99450,WordSwapWordNet,synonym,ared hat society,ared hat company,TRUE,TRUE
+DLTypo,99478,WordSwapWordNet,synonym,army physical fittness test,army physical fittness prove,TRUE,TRUE
+DLTypo,99636,WordSwapWordNet,synonym,azygous lobe in the lung,azygos lobe in the lung,TRUE,TRUE
+DLTypo,100382,WordSwapWordNet,synonym,cache creek casion,cache brook casion,TRUE,TRUE
+DLTypo,100508,WordSwapWordNet,synonym,car accident lawers,railcar accident lawers,FALSE,TRUE
+DLTypo,2230899496,WordSwapWordNet,synonym,congential seizures in dogs,congential seizures in dog,TRUE,TRUE
+DLTypo,102043,WordSwapWordNet,synonym,drug teting in animals,drug teting in creature,TRUE,TRUE
+DLTypo,102400,WordSwapWordNet,synonym,facts about chirs brown,facts about chirs chocolate-brown,FALSE,TRUE
+DLTypo,102610,WordSwapWordNet,synonym,flee market buildings,flee mart buildings,TRUE,TRUE
+DLTypo,103451,WordSwapWordNet,synonym,guide to create a cover latter,channelise to create a cover latter,FALSE,TRUE
+DLTypo,103540,WordSwapWordNet,synonym,haravrd medical school,haravrd medical schoolhouse,TRUE,TRUE
+DLTypo,103941,WordSwapWordNet,synonym,how did confusianism create order in china,how did confusianism produce order in china,TRUE,TRUE
+DLTypo,103945,WordSwapWordNet,synonym,how do i clean my computor monitor screen,how do i clean my computor monitor filmdom,FALSE,TRUE
+DLTypo,103963,WordSwapWordNet,synonym,how far is it from san diego to tiajuana mexico,how far is it from san diego to tiajuana mexico,FALSE,FALSE
+DLTypo,103970,WordSwapWordNet,synonym,how long does amoxicilin work for,how farseeing does amoxicilin work for,TRUE,TRUE
+DLTypo,103973,WordSwapWordNet,synonym,how long to wait after an oral intervew,how long to expect after an oral intervew,TRUE,TRUE
+DLTypo,103983,WordSwapWordNet,synonym,how money does the show seinfled make,how money does the show seinfled puddle,FALSE,TRUE
+DLTypo,104002,WordSwapWordNet,synonym,how to blanch frise,how to pale frise,FALSE,TRUE
+DLTypo,104009,WordSwapWordNet,synonym,how to clean siver,how to uncontaminating siver,TRUE,TRUE
+DLTypo,104012,WordSwapWordNet,synonym,how to clear bad exzema,how to clear high-risk exzema,TRUE,TRUE
+DLTypo,104037,WordSwapWordNet,synonym,how to get ride of dust mites,how to become ride of dust mites,FALSE,TRUE
+DLTypo,104047,WordSwapWordNet,synonym,how to lay basemen drain pipes,how to lay basemen drainpipe pipes,TRUE,TRUE
+DLTypo,104063,WordSwapWordNet,synonym,how to plant a graden,how to constitute a graden,TRUE,TRUE
+DLTypo,104107,WordSwapWordNet,synonym,how to write a foral letter,how to spell a foral letter,TRUE,TRUE
+DLTypo,104345,WordSwapWordNet,synonym,information on water lilly,data on water lilly,TRUE,TRUE
+DLTypo,104867,WordSwapWordNet,synonym,kenmore elite refridgerator,kenmore elect refridgerator,FALSE,TRUE
+DLTypo,104925,WordSwapWordNet,synonym,kindey bun levels,kindey bun story,FALSE,TRUE
+DLTypo,105415,WordSwapWordNet,synonym,los angelel unified school district,los angelel incorporate school district,TRUE,TRUE
+DLTypo,105581,WordSwapWordNet,synonym,mab about you,mab about you,FALSE,FALSE
+DLTypo,105826,WordSwapWordNet,synonym,mason dixson line,mason dixson occupation,FALSE,TRUE
+DLTypo,105899,WordSwapWordNet,synonym,medal taste in mouth symptoms,decoration taste in mouth symptoms,FALSE,TRUE
+DLTypo,106158,WordSwapWordNet,synonym,mobile omes for sale,wandering omes for sale,FALSE,TRUE
+DLTypo,107625,WordSwapWordNet,synonym,polar hear rate monitor,polar try rate monitor,FALSE,TRUE
+DLTypo,108039,WordSwapWordNet,synonym,real gohst pics,veridical gohst pics,TRUE,TRUE
+DLTypo,108875,WordSwapWordNet,synonym,singer axel rose,singer axel resurrect,FALSE,TRUE
+DLTypo,109323,WordSwapWordNet,synonym,steelers heinz filed tickets,steelers heinz filed ticket,TRUE,TRUE
+DLTypo,4271677555,WordSwapWordNet,synonym,stint for kidney stones,skimp for kidney stones,FALSE,TRUE
+DLTypo,109410,WordSwapWordNet,synonym,student loans from a banck,pupil loans from a banck,TRUE,TRUE
+DLTypo,109537,WordSwapWordNet,synonym,symptoms of gential herpes,symptom of gential herpes,TRUE,TRUE
+DLTypo,109599,WordSwapWordNet,synonym,taning bed eye damage,taning bed eye wrong,TRUE,TRUE
+DLTypo,109832,WordSwapWordNet,synonym,the great catsby,the majuscule catsby,FALSE,TRUE
+DLTypo,109873,WordSwapWordNet,synonym,the miami hearld,the miami hearld,FALSE,FALSE
+DLTypo,109978,WordSwapWordNet,synonym,things to do when broed,matter to do when broed,FALSE,TRUE
+DLTypo,110090,WordSwapWordNet,synonym,toliet gurgles after flushing,toliet gurgles after flush,TRUE,TRUE
+DLTypo,110271,WordSwapWordNet,synonym,troy built tiller,troy build tiller,TRUE,TRUE
+DLTypo,110434,WordSwapWordNet,synonym,university of tennesse,university of tennesse,FALSE,FALSE
+DLTypo,110445,WordSwapWordNet,synonym,untied health care,unbrace health care,FALSE,TRUE
+DLTypo,110633,WordSwapWordNet,synonym,venitian las vegas,venitian la vegas,TRUE,FALSE
+DLTypo,110843,WordSwapWordNet,synonym,washington state goverment,washington express goverment,FALSE,TRUE
+DLTypo,110992,WordSwapWordNet,synonym,what causes stomache cancer,what case stomache cancer,FALSE,TRUE
+DLTypo,110999,WordSwapWordNet,synonym,what does excupatory mean,what does excupatory signify,TRUE,TRUE
+DLTypo,111002,WordSwapWordNet,synonym,what does the declaration of independance represent,what does the announcement of independance represent,FALSE,TRUE
+DLTypo,111014,WordSwapWordNet,synonym,what is acid reflex,what is acid automatic,FALSE,TRUE
+DLTypo,1245295473,WordSwapWordNet,synonym,what is acreis,what is acreis,FALSE,FALSE
+DLTypo,111024,WordSwapWordNet,synonym,what is hepatitus,what is hepatitus,FALSE,FALSE
+DLTypo,111026,WordSwapWordNet,synonym,what is leader of algonquians civilization,what is leader of algonquians culture,TRUE,TRUE
+DLTypo,111043,WordSwapWordNet,synonym,what kind of medicine is zytec,what kind of music is zytec,FALSE,FALSE
+DLTypo,111056,WordSwapWordNet,synonym,what to feed tood frogs,what to course tood frogs,FALSE,FALSE

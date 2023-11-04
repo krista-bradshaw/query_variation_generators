@@ -83,10 +83,5 @@ def main():
     df_all.round(4).to_csv("{}main_table_{}.csv".format(path, task), sep='\t')
     # embed()
 
-
 if __name__ == "__main__":
     main()
-
-
-
-##UPDATE
